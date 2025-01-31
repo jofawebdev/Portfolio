@@ -261,9 +261,9 @@
         <div class="container-fluid bg-dark py-5 my-3 text-light">
             <div class="container text-center">
                 <h2 class="fw-bold display-5 mb-2"><span class="text-danger">OUR</span> PROJECTS</h2>
-                <p class="text-start">Your website should be user-friendly and convey your unique selling point. We help you accelerate growth through the design and development of revenue-generating websites.</p>
+                <p class="lead text-start">Your website should be user-friendly and convey your unique selling point. We help you accelerate growth through the design and development of revenue-generating websites.</p>
 
-                <p class="text-start">From landing pages to product descriptions and blog posts, our writers will craft a compelling copy that accurately represents your brand and drives conversions. We have the skills and experience to deliver high-quality websites that drive results. Please work with us and get well-written, engaging web content optimized for success. We shall train your team with website management skills to make changes whenever possible.</p>
+                <p class="lead text-start">From landing pages to product descriptions and blog posts, our writers will craft a compelling copy that accurately represents your brand and drives conversions. We have the skills and experience to deliver high-quality websites that drive results. Please work with us and get well-written, engaging web content optimized for success. We shall train your team with website management skills to make changes whenever possible.</p>
 
                 <div class="row g-4 mt-auto">
                     <div class="col-md-4">
@@ -371,40 +371,42 @@
 
         
         <!-- Inquiry Section -->
-        <section class="container-lg py-4 my-4 text-center">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10 col-lg-8">
-                    <h2 class="display-5 text-primary fw-bold mb-4">Make An Enquiry</h2>
-                    <p class="lead fs-3 text-dark mb-4">Have questions about our services? Let's Connect!</p>
-                    
-                    <div class="d-flex flex-column gap-3 mb-4">
-                        <div class="bg-light rounded-4 p-4 border border-2 border-primary-subtle">
-                            <p class="fs-5 text-muted mb-0">
-                                Reach us via phone or chat at
-                                <span class="d-inline-block d-sm-inline bg-primary text-white px-3 py-2 rounded-pill ms-2 w-100 text-wrap" style="word-break: break-word; max-width: 100%;">
-                                    <i class="bi bi-telephone me-2"></i>+254 793-004-632
-                                </span>
-                            </p>
+        <section class="bg-dark text-light py-5 my-4 text-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <h2 class="display-5 text-primary fw-bold mb-4">Make An Enquiry</h2>
+                        <p class="lead fs-3 text-light mb-4">Have questions about our services? Let's Connect!</p>
+                        
+                        <div class="d-flex flex-column gap-3 mb-4">
+                            <div class="bg-light rounded-4 p-4 border border-2 border-primary-subtle">
+                                <p class="fs-5 text-muted mb-0">
+                                    Reach us via phone or chat at
+                                    <span class="d-inline-block d-sm-inline bg-primary text-white px-3 py-2 rounded-pill ms-2 w-100 text-wrap" style="word-break: break-word; max-width: 100%;">
+                                        <i class="bi bi-telephone me-2"></i>+254 793-004-632
+                                    </span>
+                                </p>
+                            </div>
+
+                            <div class="bg-light rounded-4 p-4 border border-2 border-primary-subtle">
+                                <p class="fs-5 text-muted mb-0">
+                                    Email us at
+                                    <a href="mailto:info@jofawebdev.com" 
+                                    class="d-inline-block d-sm-inline bg-dark text-white px-3 py-2 rounded-pill ms-2 text-decoration-none w-100 text-wrap" 
+                                    style="word-break: break-word; max-width: 100%;">
+                                        <i class="bi bi-envelope me-2"></i>info@jofawebdev.co.ke
+                                    </a>
+                                </p>
+                            </div>
                         </div>
 
-                        <div class="bg-light rounded-4 p-4 border border-2 border-primary-subtle">
-                            <p class="fs-5 text-muted mb-0">
-                                Email us at
-                                <a href="mailto:info@jofawebdev.com" 
-                                class="d-inline-block d-sm-inline bg-dark text-white px-3 py-2 rounded-pill ms-2 text-decoration-none w-100 text-wrap" 
-                                style="word-break: break-word; max-width: 100%;">
-                                    <i class="bi bi-envelope me-2"></i>info@jofawebdev.co.ke
-                                </a>
+                        <div class="alert alert-primary border-primary-subtle">
+                            <p class="mb-0 fs-6">
+                                <i class="bi bi-info-circle me-2"></i>
+                                Response within 2 business hours. Office hours: Mon-Sat, 8:00 AM - 6:00 PM<br>
+                                Closed Sundays and national holidays
                             </p>
                         </div>
-                    </div>
-
-                    <div class="alert alert-primary border-primary-subtle">
-                        <p class="mb-0 fs-6">
-                            <i class="bi bi-info-circle me-2"></i>
-                            Response within 2 business hours. Office hours: Mon-Sat, 8:00 AM - 6:00 PM<br>
-                            Closed Sundays and national holidays
-                        </p>
                     </div>
                 </div>
             </div>
