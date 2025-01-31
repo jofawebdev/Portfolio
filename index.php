@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
@@ -101,7 +102,7 @@
         <div class="container py-5 text-center">
             <h2 class="fw-bold">WEB DEVELOPMENT & OPTIMIZATION SERVICES <span class="text-danger">FOR YOUR BUSINESS SUCCESS</span></h2>
             
-            <p>Enhance Performance, Elevate User Experience, and Dominate Search Rankings</p>
+            <p class="fw-bold">Enhance Performance, Elevate User Experience, and Dominate Search Rankings</p>
 
             <div class="row">
                 <div class="col-sm-6 mt-2">
@@ -170,8 +171,8 @@
         <!-- End Third Section -->
 
         <!-- Begin Services Section -->
-        <div class="container my-2 py-4 text-center">
-            <h2 class="text-primary"><b>OUR SERVICES</b></h2>
+        <div class="container py-5 text-center">
+            <h2 class="fw-bold display-5 text-danger">OUR <span class="text-primary">SERVICES</span></h2>
             <h4>We Handle All Aspects of Web Development & Digital Marketing</h4>
             
             <!-- Begin First Row -->
@@ -181,7 +182,7 @@
                         <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title fw-bold">Custom Website Development</h5>
-                            <p class="card-text text-start">Our expertise as web specialists centers on crafting bespoke digital solutions that align with your unique business objectives. We build websites that drive engagement, trust, and measurable results by merging industry-leading coding practices with brand-centric design. Beyond custom builds, our optimization services refine existing platforms through performance audits, UX/UI redesigns, and streamlined user journeys—turning stagnant websites into dynamic tools for growth. With a focus on scalability and efficiency, we deliver faster load speeds, SEO-driven performance, and conversion-focused architectures. The outcome? Future-proof digital assets that reduce long-term costs while accelerating your competitive edge.</p>
+                            <p class="card-text text-start">Our expertise as web specialists centers on crafting bespoke digital solutions that align with your unique business objectives. We build websites that drive engagement, trust, and measurable results by merging industry-leading coding practices with brand-centric design. Beyond custom builds, our optimization services refine existing platforms through performance audits, UX/UI redesigns, and streamlined user journeys—turning stagnant websites into dynamic tools for growth.</p>
                             <a href="custom website development" class="btn btn-danger rounded-pill mt-auto">Read More <i class="far fa-arrow-alt-circle-right text-white"></i></a>
                         </div>
                     </div>
@@ -193,7 +194,7 @@
                         <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title fw-bold">E-commerce Website Development</h5>
-                            <p class="card-text text-start">As Kenya-based eCommerce web development specialists, our team crafts custom-built online stores that transcend geographical boundaries and amplify your digital reach. Our full-service solutions blend cutting-edge design with technical excellence, creating mobile-responsive, SEO-optimized platforms prioritizing affordability and seamless user experiences. We combine sleek aesthetics with robust functionality, delivering secure, scalable websites with SSL encryption, intuitive payment gateways, and tailored integrations. From initial strategy to post-launch support, we empower businesses to streamline operations, boost conversions, and grow sustainably in Kenya's competitive online marketplace.</p>
+                            <p class="card-text text-start">As Kenya-based eCommerce web development specialists, our team crafts custom-built online stores that transcend geographical boundaries and amplify your digital reach. Our full-service solutions blend cutting-edge design with technical excellence, creating mobile-responsive, SEO-optimized platforms prioritizing affordability and seamless user experiences.</p>
                             <a href="ecommerce development" class="btn btn-danger rounded-pill mt-auto">Read More <i class="far fa-arrow-alt-circle-right text-white"></i></a>
                         </div>
                     </div>
@@ -205,7 +206,7 @@
                         <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title"><b>Digital Growth | Marketing Services</b></h5>
-                            <p class="card-text text-start">As web specialists, we leverage data-driven strategies and innovative digital solutions to keep your business ahead in today's competitive online landscape. Our mission is to accelerate your digital growth and unlock the full potential of your online presence. Through our expertise, we enhance brand visibility, boost conversion rates, generate qualified leads, and maximize search engine rankings — all while delivering measurable ROI. Our seasoned web specialists are committed to crafting tailored campaigns that align with your unique business goals, ensuring sustainable growth and long-term success.</p>
+                            <p class="card-text text-start">As web specialists, we leverage data-driven strategies and innovative digital solutions to keep your business ahead in today's competitive online landscape. Our mission is to accelerate your digital growth and unlock the full potential of your online presence. Through our expertise, we enhance brand visibility, boost conversion rates, generate qualified leads, and maximize search engine rankings — all while delivering measurable ROI.</p>
                             <a href="digital marketing" class="btn btn-danger rounded-pill mt-auto">Read More <i class="far fa-arrow-alt-circle-right text-white"></i></a>
                         </div>
                     </div>
@@ -257,70 +258,158 @@
         <!-- End Services -->
 
         <!-- Case Study -->
-        <div class="container-fluid bg-dark py-4 text-light">
-            <div class="container my-2 text-center">
-                <h2><b>OUR PROJECTS</b></h2>
+        <div class="container-fluid bg-dark py-5 my-3 text-light">
+            <div class="container text-center">
+                <h2 class="fw-bold display-5 mb-2"><span class="text-danger">OUR</span> PROJECTS</h2>
                 <p class="text-start">Your website should be user-friendly and convey your unique selling point. We help you accelerate growth through the design and development of revenue-generating websites.</p>
 
                 <p class="text-start">From landing pages to product descriptions and blog posts, our writers will craft a compelling copy that accurately represents your brand and drives conversions. We have the skills and experience to deliver high-quality websites that drive results. Please work with us and get well-written, engaging web content optimized for success. We shall train your team with website management skills to make changes whenever possible.</p>
 
-                <div class="row">
-                    <div class="col-sm-4 p-3">
-                        <img class="img-fluid" src="images/Screenshot (1).png" alt=""> 
+                <div class="row g-4 mt-auto">
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm">
+                            <a href="https://www.sinepowerelectrics.com" target="_blank">
+                                <img class="card-img-top" src="images/Screenshot (1).png" alt="Sinepower Electrics">
+                            </a>
+                            <div class="card-body bg-light text-dark text-center">
+                                <p class="fw-bold mb-0">SINEPOWER ELECTRICS</p>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-sm-4 p-3">
-                        <img class="img-fluid" src="images/Screenshot (2).png" alt="">
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm">
+                            <a href="https://www.niacreation.com/" target="_blank">
+                                <img src="images/Screenshot (2).png" class="card-img-top" alt="Nia Creation">
+                            </a>
+                            <div class="card-body bg-light text-dark text-center">
+                                <p class="fw-bold mb-0">NIA CREATION LTD</p>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-sm-4 p-3">
-                        <img class="img-fluid" src="images/Screenshot (3).png" alt="">
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm">
+                            <a href="https://www.nilababyshop.com/" target="_blank">
+                                <img src="images/Screenshot (3).png" class="card-img-top" alt="Nila Baby Shop">
+                            </a>
+                            <div class="card-body bg-light text-dark text-center">
+                                <p class="fw-bold mb-0">NILA BABY SHOP</p>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
 
-                <a href="Portfolio" class="btn btn-danger rounded-pill mt-3">View More Projects</a>
+                <a href="Portfolio" class="btn btn-danger rounded-pill mt-4">View More Projects</a>
             </div>
         </div>
         <!-- End case study -->
 
 
         <!-- Work Process Section -->
-        <div class="container py-4 my-2 text-center p-3">
-            <h2><b>OUR WORK PROCESS</b></h2>
-            <p>We know that a clear strategy must be in place for every project to guarantee quality control successfully. For this reason, our digital marketing company has created a successful project method.</p>
-
-            <div class="row">
-                <div class="col-sm bg-primary text-white p-3">
-                    <h5>CONSULTATION</h5>
-                    <p class="text-start">As a web design & development agency, we understand your unique needs. After you contact us, we'll schedule a consultation to discuss your marketing efforts, analyze competitors, target audience, and goals. Our team will then design a stunning, user-friendly, fast-loading website for all devices.</p>
+        <section class="py-5 bg-light text-dark">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2 class="display-5 fw-bold mb-3">Our <span class="text-primary">Work Process</span></h2>
+                    <p class="lead text-muted mx-lg-5">
+                        We combine strategic planning with cutting-edge execution to deliver exceptional results. 
+                        Our proven methodology ensures every project's success.
+                    </p>
                 </div>
 
-                <div class="col-sm bg-dark text-white p-3">
-                    <h5>STRATEGY</h5>
-                    <p class="text-start">After the initial consultation, our experts develop a comprehensive strategy including web design, SEO, PPC, and more. You'll approve the strategy before we start. Using data-driven approaches and the latest technology, we help your business stay current with trends and best practices.</p>
-                </div>
+                <div class="row g-4">
+                    <!-- Consultation -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="bg-primary bg-gradient text-white p-4 rounded-4 h-100 shadow-sm">
+                            <div class="d-flex flex-column gap-3">
+                                <i class="bi bi-chat-square-text fs-2"></i>
+                                <h3 class="h4 fw-semibold mb-0">Consultation</h3>
+                                <p class="mb-0">We start with in-depth discussions to understand your business goals, target audience, and technical requirements, laying the groundwork for success.</p>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="col-sm bg-primary text-white p-3">
-                    <h5>IMPLEMENTATION</h5>
-                    <p class="text-start">Once the client approves our strategy, we will design content, optimize the website, and test for quality assurance. Client engagement is required. After development, we will launch the site by updating DNS settings and perform final testing to ensure functionality and meet project requirements.</p>
-                </div>
+                    <!-- Strategy -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="bg-dark bg-gradient text-white p-4 rounded-4 h-100 shadow-sm">
+                            <div class="d-flex flex-column gap-3">
+                                <i class="bi bi-lightbulb fs-2"></i>
+                                <h3 class="h4 fw-semibold mb-0">Strategy</h3>
+                                <p class="mb-0">Crafting a data-driven plan combining modern web design, SEO fundamentals, and conversion optimization strategies tailored to your market.</p>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="col-sm bg-dark text-white p-3">
-                    <h5>LAUNCH</h5>
-                    <p class="text-start">We will update the DNS settings to launch your website and make it live. We will then conduct final testing to ensure all functionalities work correctly and meet project requirements. Your engagement during this phase will ensure the website's successful launch and optimal performance.</p>
-                </div>
+                    <!-- Implementation -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="bg-primary bg-gradient text-white p-4 rounded-4 h-100 shadow-sm">
+                            <div class="d-flex flex-column gap-3">
+                                <i class="bi bi-tools fs-2"></i>
+                                <h3 class="h4 fw-semibold mb-0">Implementation</h3>
+                                <p class="mb-0">Agile development process with continuous client collaboration, ensuring perfect alignment with your vision and business objectives.</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Launch -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="bg-dark bg-gradient text-white p-4 rounded-4 h-100 shadow-sm">
+                            <div class="d-flex flex-column gap-3">
+                                <i class="bi bi-rocket-takeoff fs-2"></i>
+                                <h3 class="h4 fw-semibold mb-0">Launch</h3>
+                                <p class="mb-0">Flawless deployment with comprehensive testing, performance optimization, and post-launch support to ensure sustained success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
         <hr>
-        <!-- End Work Process -->
 
-        <div class="container py-4 my-2 text-center p-3">
-            <h2 class="text-primary"><b>Make An Enquiry</b></h2>
-            <p class="lead"><b>Do you have any questions concerning our services? Get in Touch Now!</b></p>
-            <p class="lead">We may be reached via phone and chat at <b>(+254 793-004-632)</b> from Monday through Saturday, 8:00 a.m. to 6:00 p.m. You may contact us via email at <b>info@jofawebdev.com</b> as well. You may anticipate a response in two business hours. Sundays and federal holidays are our only days off.</p>
-        </div>
+        
+        <!-- Inquiry Section -->
+        <section class="container-lg py-4 my-4 text-center">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <h2 class="display-5 text-primary fw-bold mb-4">Make An Enquiry</h2>
+                    <p class="lead fs-3 text-dark mb-4">Have questions about our services? Let's Connect!</p>
+                    
+                    <div class="d-flex flex-column gap-3 mb-4">
+                        <div class="bg-light rounded-4 p-4 border border-2 border-primary-subtle">
+                            <p class="fs-5 text-muted mb-0">
+                                Reach us via phone or chat at
+                                <span class="d-inline-block d-sm-inline bg-primary text-white px-3 py-2 rounded-pill ms-2 w-100 text-wrap" style="word-break: break-word; max-width: 100%;">
+                                    <i class="bi bi-telephone me-2"></i>+254 793-004-632
+                                </span>
+                            </p>
+                        </div>
+
+                        <div class="bg-light rounded-4 p-4 border border-2 border-primary-subtle">
+                            <p class="fs-5 text-muted mb-0">
+                                Email us at
+                                <a href="mailto:info@jofawebdev.com" 
+                                class="d-inline-block d-sm-inline bg-dark text-white px-3 py-2 rounded-pill ms-2 text-decoration-none w-100 text-wrap" 
+                                style="word-break: break-word; max-width: 100%;">
+                                    <i class="bi bi-envelope me-2"></i>info@jofawebdev.co.ke
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="alert alert-primary border-primary-subtle">
+                        <p class="mb-0 fs-6">
+                            <i class="bi bi-info-circle me-2"></i>
+                            Response within 2 business hours. Office hours: Mon-Sat, 8:00 AM - 6:00 PM<br>
+                            Closed Sundays and national holidays
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <!-- Begin Pagination -->
         <div class="container py-3 my-2">
