@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
@@ -71,109 +72,202 @@
             </div>
         </header>
 
+        
         <!-- First Section -->
-        <div class="container my-2 py-4 text-center">
-            <h2><b>CONVERSION-DRIVEN <span class="text-danger"> DIGITAL MARKETING AGENCY</span></b></h2>
-            <h5>Professional Website Design Tailored Specifically To You And Your Company's Needs</h5>
+        <div class="container py-5 text-center">
+            <h2 class="display-5 fw-bold mb-4 text-uppercase letter-spacing-2">
+                CONVERSION-DRIVEN 
+                <span class="text-danger d-block mt-2">Web Solutions & Digital Strategy</span>
+            </h2>
+            <h5 class="fs-5 text-muted mb-5">Custom-Crafted Web Solutions Designed Around Your Brand's Vision & Business Goals</h5>
 
-            <div class="row">
-                <div class="col-sm-6 mt-2">
-                    <img class="img-fluid" src="images/digital-marketing (1).jpg" alt="">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-6">
+                    <img class="img-fluid rounded-4 shadow-lg" 
+                        src="images/digital-marketing (1).jpg" 
+                        alt="Digital marketing concepts"
+                        loading="lazy">
                 </div>
 
-                <div class="col-sm-6 mt-2">
-                    <p class="lead text-start">Our professional web design services can help you to increase traffic and conversions by making your website appear and feel better to your visitors. In addition to providing regular website maintenance and search engine optimization (including ecommerce SEO), we also provide a wide variety of additional services to help your website function smoothly.</p>
+                <div class="col-md-6 text-start">
+                    <p class="lead mb-4 fs-6">
+                        <span class="d-block fw-bold mb-3 fs-4 text-dark">Comprehensive Digital Empowerment</span>
+                        Our web solutions boost traffic, conversions, and engagement through performance optimization, enhanced search visibility, and UX excellence. Beyond responsive design, we deliver ongoing maintenance, advanced SEO, and tailored growth strategies.
+                    </p>
+                    
+                    <div class="bg-light bg-opacity-30 p-4 rounded-3 border-start border-5 border-danger">
+                        <p class="mb-0 fst-italic">
+                            "Strategic collaboration meets technical excellence - building digital foundations for business growth"
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <p class="mt-2 lead text-start">Given that each company is different, there is no universal approach to website development. Because of this, we provide specialized website design services to accommodate your company's specific needs. To help you turn site visitors into paying customers, our team of seasoned web developers and designers will first learn about your company and its target demographic before designing and building a unique, fully responsive website.</p>
+            <div class="mt-5 pt-4">
+                <p class="lead fs-6 text-start px-md-5">
+                    <span class="d-block fw-bold mb-3 fs-4">Tailored Digital Experiences</span>
+                    Our team partners with you to decode business objectives, audience needs, and industry challenges. Merging these insights with modern development practices, we create mobile-optimized websites that embody brand identity while driving measurable conversions.
+                </p>
+            </div>
         </div>
 
 
         <!-- Our Mission, Vision & Core Values -->
-        <div class="container-fluid my-2 py-4 bg-dark text-light">
-            <div class="container mt-3 text-center">
-                <div class="row d-flex align-items-stretch">
-                    <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex flex-column">
-                        <h5 class="text-primary"><b>MISSION</b></h5>
-                        <p class="text-start">Our goal as an agency is to give our customers the best Digital Marketing and Website Development services and enable them to succeed online. We strive to create visual impact with our user-friendly website design strategy and guarantee highly impactful, lasting results.</p>
+        <div class="container-fluid py-5 bg-dark text-light">
+            <div class="container">
+                <div class="row g-4 align-items-stretch">
+                    <!-- Mission -->
+                    <div class="col-md-6 col-lg-4 d-flex flex-column p-4">
+                        <i class="bi bi-rocket fs-3 text-primary mb-3"></i>
+                        <h4 class="text-primary mb-3 fw-bold">OUR MISSION</h4>
+                        <p class="text-start">To empower businesses through exceptional web solutions that combine strategic design with cutting-edge technology. We specialize in building responsive websites that drive engagement, enhance user experience, and deliver measurable results through optimized performance and SEO excellence.</p>
                     </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex flex-column">
-                        <h5><b>VISION</b></h5>
-                        <p class="text-start">Our vision is to become the world's leading data-driven agency that delivers results. We aim to enrich the digital marketing experience and be a reliable leading internet marketing solutions provider.</p>
+                    <!-- Vision -->
+                    <div class="col-md-6 col-lg-4 d-flex flex-column p-4">
+                        <i class="bi bi-eye fs-3 text-warning mb-3"></i>
+                        <h4 class="text-warning mb-3 fw-bold">OUR VISION</h4>
+                        <p class="text-start">To redefine digital excellence by becoming the preferred partner for businesses seeking transformative web solutions. We aim to lead in responsive web design and development innovation, setting new standards for user-centric experiences that convert visitors into loyal customers.</p>
                     </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex flex-column">
-                        <h5 class="text-danger"><b>CORE VALUES</b></h5>
-                        <p>We are committed to offering the best values for our clients. Our main Values include:</p>
-                        <ul>
-                            <li class="text-start">Integrity & Acountability</li>
-                            <li class="text-start">Innovation</li>
-                            <li class="text-start">Clarity & Transparency</li>
-                            <li class="text-start">Results Driven</li>
+                    <!-- Core Values -->
+                    <div class="col-md-6 col-lg-4 d-flex flex-column p-4">
+                        <i class="bi bi-heart fs-3 text-danger mb-3"></i>
+                        <h4 class="text-danger mb-3 fw-bold">OUR CORE VALUES</h4>
+                        <p>Guiding every project we undertake:</p>
+                        <ul class="list-unstyled">
+                            <li class="text-start mb-2"><i class="bi bi-check-circle me-2 text-light"></i>Code Integrity & Technical Excellence</li>
+                            <li class="text-start mb-2"><i class="bi bi-check-circle me-2 text-light"></i>Innovation in Web Solutions</li>
+                            <li class="text-start mb-2"><i class="bi bi-check-circle me-2 text-light"></i>Transparent Collaboration</li>
+                            <li class="text-start mb-2"><i class="bi bi-check-circle me-2 text-light"></i>Results-Driven Development</li>
                         </ul>
                     </div>
-
                 </div>
             </div>
         </div>
 
 
+
         <!-- How we Work -->
-        <div class="container my-2 py-4 text-center">
-            <h2><b>HOW DO <span class="text-danger"> WE WORK?</span></b></h2>
-            <p class="text-start">While developing websites and blogs, we optimize pictures for faster load, do internal linking to keep users engaged on the site and label and caption images for search engines and users. We also use Meta tags and descriptions to make the website searchable, keep the layout simple and easy to navigate for web spiders and minimize popups, web frames, queries, and scripts.</p>
-            <p class="text-start">Significant search engines such as Chrome, Yahoo and Google provide the best results for every search, and that's why most people find them trustworthy. Today big brands dominate their area of the business; hence it's difficult for startups and small-scale entrepreneurs to make the mark in this field as the competition is very high. But by investing in the right SEO firm, effective SEO strategy, and good rankings, even these tiny firms can attract more customers.</p>
+        <div class="container py-5">
+            <div class="d-flex justify-content-center align-items-center mb-3">
+                <h2 class="display-5 fw-bold mb-0">HOW DO <span class="text-danger">WE WORK?</span></h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex gap-3 align-items-center mb-3">
+                                <i class="bi bi-speedometer2 text-danger fs-3"></i>
+                                <h3 class="h4 fw-bold mb-0">Precision Optimization</h3>
+                            </div>
+                            <p class="text-start mb-0">As web specialists, our approach to crafting high-performance websites and blogs includes meticulously optimizing images for faster loading times, strategically incorporating internal linking to enhance user engagement, and ensuring all visuals are accurately labeled and captioned for search engines and visitors. We implement lazy loading and modern formats like WebP/AVIF, architect semantic HTML structures for screen readers, and deploy cache optimization strategies through service workers. By continuously monitoring performance metrics and making data-driven improvements, we create websites that are visually appealing, highly functional, and accessible to all users.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex gap-3 align-items-center mb-3">
+                                <i class="bi bi-graph-up-arrow text-danger fs-3"></i>
+                                <h3 class="h4 fw-bold mb-0">Sustainable Growth Strategy</h3>
+                            </div>
+                            <p class="text-start mb-0">Leading search engines like Google, Yahoo, and Chrome prioritize websites that deliver exceptional user experiences and authoritative content, so top rankings on these platforms are synonymous with trust and visibility. While established brands often dominate their industries, startups and emerging businesses must overcome resource limitations and SEO knowledge gaps to compete effectively. This is where our holistic approach combines technical SEO audits, content strategy refinement, and continuous performance monitoring to help newer entrants establish domain authority and achieve sustainable organic growth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <hr>
+
+        <hr class="border border-1 border-danger w-25 mx-auto my">
 
 
-        <!-- Grow Traffic & Increase Revenue -->
-        <div class="container my-2 py-5">
-            <h3 class="mb-4 text-center"><b>SEO SERVICES THAT GROW TRAFFIC AND INCREASE REVENUE</b></h3>
+        <!-- Growth-Driven Web Solutions -->
+        <div class="container py-5">
+            <h3 class="mb-5 text-center display-4 fw-bold text-gradient-primary">Amplify Your Digital Presence</h3>
             <div class="row g-4">
                 <!-- Column 1 -->
-                <div class="col-md-4 d-flex text-white">
-                    <div class="bg-primary border border-warning rounded p-4 flex-fill d-flex flex-column">
-                        <h4 class="mb-3"><b>ON-PAGE & OFF-PAGE SEO</b></h4>
-                        <p class="mb-auto">On-page SEO services optimize individual web pages to improve search engine rankings. This includes optimizing content, meta tags, and internal links, ensuring faster load times and mobile-friendliness, which collectively enhance visibility and engagement. Off-page SEO services, on the other hand, focus on building a website's authority and credibility through external factors like backlinks, social media signals, and online reputation management. These services drive organic traffic, improve search engine rankings, and increase conversions by establishing a user-friendly online presence.</p>
+                <div class="col-md-4 d-flex">
+                    <div class="bg-primary bg-opacity-25 border border-primary border-3 rounded-4 p-4 flex-fill d-flex flex-column hover-shadow-lg transition-all">
+                        <div class="d-flex justify-content-center mb-4">
+                            <div class="bg-primary p-3 rounded-circle">
+                                <i class="bi bi-bar-chart fs-2 text-white"></i>
+                            </div>
+                        </div>
+                        <h4 class="mb-3 text-center fw-bold"><i class="bi bi-search me-2"></i>Strategic SEO Optimization</h4>
+                        <p class="text-muted">Our comprehensive SEO solutions bridge on-page precision with off-page authority building. We optimize technical infrastructure, craft search-friendly content, and execute ethical link-building strategies. Through continuous performance monitoring and algorithm adaptation, we ensure your digital assets maintain competitive visibility and conversion excellence.</p>
                     </div>
                 </div>
 
                 <!-- Column 2 -->
-                <div class="col-md-4 d-flex text-white">
-                    <div class="bg-success border border-success rounded p-4 flex-fill d-flex flex-column">
-                        <h4 class="mb-3"><b>E-COMMERCE SEO</b></h4>
-                        <p class="mb-auto">For any business to improve their online visibility and drive traffic to their website, they will need to leverage SEO services. Ecommerce SEO is basically optimizing website structure, product listing and description. Our company offers SEO including keyword research, on-page optimization and link building. When doing eCommerce SEO our experts use analytics and conversion rate optimization to track performance and make data-driven decisions. Our agency offers comprehensive local SEO services to help businesses boost their visibility and rankings in local organic search results.</p>
+                <div class="col-md-4 d-flex">
+                    <div class="bg-success bg-opacity-25 border border-success border-3 rounded-4 p-4 flex-fill d-flex flex-column hover-shadow-lg transition-all">
+                        <div class="d-flex justify-content-center mb-4">
+                            <div class="bg-success p-3 rounded-circle">
+                                <i class="bi bi-cart3 fs-2 text-white"></i>
+                            </div>
+                        </div>
+                        <h4 class="mb-3 text-center fw-bold"><i class="bi bi-lightning-charge me-2"></i>E-Commerce Acceleration</h4>
+                        <p class="text-muted">Our commerce specialists engineer search dominance for product ecosystems. We architect technical SEO frameworks, optimize conversion funnels, and deploy structured data strategies. Combining AI-driven keyword mapping with user intent analysis, we transform digital storefronts into high-velocity revenue engines while maintaining platform-specific best practices.</p>
                     </div>
                 </div>
 
                 <!-- Column 3 -->
-                <div class="col-md-4 d-flex text-white">
-                    <div class="bg-danger border border-danger rounded p-4 flex-fill d-flex flex-column">
-                        <h4 class="mb-3"><b>KEYWORD RESEARCH</b></h4>
-                        <p class="mb-auto">Before starting SEO campaign, keyword research has always been the foundation and the guide to the next steps. Our team of SEO specialists will gain insights on your target audience's search behavior and from there, we will create content that matches their needs. Our approach to keyword research is data-driven, and we utilize advanced techniques to uncover most valuable keywords for your business. We also keep a close eye on the latest SEO trends and algorithms, to ensuring that your website is always optimized for the latest search engine standards and follows webmasters guidelines.</p>
+                <div class="col-md-4 d-flex">
+                    <div class="bg-danger bg-opacity-25 border border-danger border-3 rounded-4 p-4 flex-fill d-flex flex-column hover-shadow-lg transition-all">
+                        <div class="d-flex justify-content-center mb-4">
+                            <div class="bg-danger p-3 rounded-circle">
+                                <i class="bi bi-megaphone fs-2 text-white"></i>
+                            </div>
+                        </div>
+                        <h4 class="mb-3 text-center fw-bold"><i class="bi bi-gear me-2"></i>Conversion Intelligence</h4>
+                        <p class="text-muted">Our data scientists decode search psychology through predictive keyword modeling and semantic analysis. Utilizing machine learning tools and competitive intelligence platforms, we identify emerging opportunities and optimize content ecosystems. This intelligence-driven approach powers sustainable growth while maintaining strict compliance with search engine quality guidelines.</p>
                     </div>
                 </div>
             </div>
         </div>
 
 
-        <!-- Last Container -->
-        <div class="container-fluid my-1 py-5 text-center bg-light">
+        <!-- Services Impact Section -->
+        <div class="container-fluid py-5 text-center bg-light border-top border-3 border-primary">
             <div class="container mt-3">
-                <h2><b>THE NEED FOR DATA-DRIVEN DIGITAL MARKETING STRATEGIES</b></h2>
-                <h5>Every client interaction allows you to gather and evaluate consumer data</h5>
+                <span class="badge bg-primary rounded-pill px-4 py-2 mb-3">Web Excellence</span>
+                <h2 class="display-5 fw-bold mb-4">DATA-DRIVEN WEB SOLUTIONS THAT ACCELERATE GROWTH</h2>
+                <hr class="w-25 mx-auto bg-primary mb-5" style="height:3px">
+                <h4 class="text-muted mb-5">Transform browser sessions into conversions through strategic digital insights</h4>
 
-
-                <div class="row">
-                    <div class="col-sm-6 mt-2">
-                        <img class="img-fluid" src="images/pin80.jpg" alt="">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <img class="img-fluid rounded-3 shadow-lg" src="images/pin80.jpg" alt="Digital strategy visualization">
                     </div>
 
-                    <div class="col-sm-6 mt-2">
-                        <p class="lead text-start">If you sell things online, we may leverage consumer data from your sales system and social media sites to target people who are likely to purchase. We discover gaps and opportunities in your sales and marketing plan using data and analytics. We help you streamline the customer experience and enhance operations by using the insights gained from that process. This solution is designed for enterprises who wish to grow. You've come to the perfect spot if you're a company in need of growth hacking skills to help you expand.</p>
+                    <div class="col-lg-6 text-start">
+                        <div class="px-lg-4">
+                            <p class="lead mb-4 fst-italic">Our full-stack expertise bridges data analytics with cutting-edge web development:</p>
+                            
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <h4 class="text-primary">▸ Conversion-Focused Development</h4>
+                                    <p>We architect websites that convert through heatmap analysis and user journey optimization</p>
+                                </div>
+                                
+                                <div class="col-12">
+                                    <h4 class="text-primary">▸ Performance Engineering</h4>
+                                    <p>Automated speed optimization and scalable cloud infrastructure solutions</p>
+                                </div>
+
+                                <div class="col-12">
+                                    <h4 class="text-primary">▸ Intelligent SEO Systems</h4>
+                                    <p>Machine learning-powered keyword strategies combined with technical SEO audits</p>
+                                </div>
+                            </div>
+
+                            <div class="mt-4">
+                                <a href="Contact" class="btn btn-primary btn-lg px-5 rounded-pill mt-3">Audit Your Web Presence →</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

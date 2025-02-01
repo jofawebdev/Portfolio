@@ -98,42 +98,90 @@
         </div>
         <!-- End Carousel -->
 
-        <!-- Begin First Section -->
-        <div class="container py-5 text-center">
-            <h2 class="fw-bold">WEB DEVELOPMENT & OPTIMIZATION SERVICES <span class="text-danger">FOR YOUR BUSINESS SUCCESS</span></h2>
-            
-            <p class="fw-bold">Enhance Performance, Elevate User Experience, and Dominate Search Rankings</p>
 
-            <div class="row">
-                <div class="col-sm-6 mt-2">
-                    <img class="img-fluid" src="images/pin81.jpg" alt="pin81">
+        <!-- Begin First Section -->
+        <div class="container p-3 py-5 py-md-6 text-center">
+            <h2 class="display-5 fw-bold text-uppercase mb-4">
+                Web Development & Optimization Services
+                <span class="text-danger d-block mt-2">For Your Business Success</span>
+            </h2>
+            
+            <p class="text-muted fw-medium fs-5 mb-5">
+                Enhance Performance, Elevate User Experience, Dominate Search Rankings
+            </p>
+
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <img class="img-fluid rounded-4 shadow-lg" src="images/pin81.jpg" alt="Web development illustration">
                 </div>
 
-                <div class="col-sm-6 mt-2">
-                    <p class="lead text-start">We are a Nairobi-based web development and optimization agency specializing in crafting high-performance digital solutions. At Jofawebdev, we empower businesses in Kenya and globally to dominate the online space through custom-coded websites, strategic technical SEO, and user-centric design.</p>
-                    
-                    <p class="text-start">With years of experience delivering fast, secure, and scalable web projects, we partner with startups, enterprises, and organizations to solve complex digital challenges—from responsive design and e-commerce integration to site migrations and performance audits. Whether refining an existing platform or building from scratch, we blend cutting-edge technology with data-driven strategies to ensure your website drives growth, engagement, and lasting success.</p>
+                <div class="col-lg-6 text-start">
+                    <div class="mb-4">
+                        <p class="lead text-dark fw-medium gradient-text">
+                            Nairobi-based digital architects crafting high-performance web solutions. Jofawebdev empowers Kenyan and global businesses to conquer the digital landscape through precision-coded websites, strategic SEO, and intuitive UX design.
+                        </p>
+                        
+                        <div class="border-start border-3 border-danger ps-4">
+                            <p class="text-secondary mb-0">
+                                Seasoned experts in delivering secure, scalable web experiences. We collaborate with startups to enterprises, solving complex challenges - from responsive design and e-commerce integration to site migrations and performance optimization. Our technology-driven approach ensures your digital presence accelerates growth and sustains competitive advantage.
+                            </p>
+                        </div>
+                    </div>
 
-                    <div class="container mt-4 d-flex justify-content-start">
-                        <a href="About" class="btn btn-danger" title="click here for more">Learn More</a>
+                    <div class="d-flex gap-3">
+                        <a href="About" class="btn btn-danger btn-lg px-5 py-3 rounded-1 fw-bold hover-effect">
+                            Explore Our Solutions
+                            <i class="bi bi-arrow-right-circle ms-2"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- End First Section -->
-
+         
+        
         <!-- Begin Second Section -->
-        <div class="container-fluid bg-light py-5">
-            <div class="container my-2 text-center">
-                <h2 class="fw-bold mb-3">TAILORED WEB SOLUTIONS <span class="text-primary">TO GROW YOUR BUSINESS</span></h2>
+        <div class="container-fluid bg-gradient-primary py-5 bg-light">
+            <div class="container-lg p-4 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <h2 class="display-4 fw-bolder mb-4 animate__animated animate__fadeIn">
+                            Tailored Web Solutions 
+                            <span class="text-primary d-block mt-2">GROW YOUR BUSINESS</span>
+                        </h2>
+                    </div>
+                </div>
 
-                <p class="lead text-start">As your dedicated Web Development & Optimization Specialist, we engineer growth-focused digital solutions tailored to your business. From selecting the ideal platform to crafting pixel-perfect, conversion-driven designs, we develop secure, scalable code that safeguards your e-commerce operations. What sets our services apart? A blend of deep technical expertise and data-driven optimizations—transforming complex challenges into frictionless user experiences. We prioritize proactive collaboration, aligning every line of code with your unique business objectives. Through iterative development and performance tuning, we deliver solutions that meet today's demands and adapt to tomorrow's opportunities—ensuring your online presence drives measurable ROI.</p>
+                <div class="row justify-content-center g-5">
+                    <div class="col-lg-6 text-lg-start">
+                        <div class="fs-5 text-black-70">
+                            <p class="mb-4">
+                                As your dedicated Web Development & Optimization Specialist, we engineer growth-focused digital solutions tailored to your business. From selecting the ideal platform to crafting pixel-perfect, conversion-driven designs, we develop secure, scalable code that safeguards your e-commerce operations.
+                            </p>
+                            <p class="mb-4">
+                                What sets our services apart? A blend of deep technical expertise and data-driven optimizations—transforming complex challenges into frictionless user experiences. We prioritize proactive collaboration, aligning every line of code with your unique business objectives.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 text-lg-start">
+                        <div class="fs-5 text-black-70">
+                            <p class="mb-4">
+                                Whether building a new e-commerce store or modernizing an outdated website, our technical precision and strategic approach ensure your digital goals are achieved. As seasoned web specialists, we engineer high-performance online stores using industry-leading platforms like WordPress/WooCommerce, Shopify (for scalable growth), Magento (enterprise-grade solutions), and headless CMS frameworks.
+                            </p>
+                            <p>
+                                We adopt a platform-agnostic approach while analyzing your business model, target audience, and growth objectives to recommend the ideal CMS, framework, or custom stack that balances speed, security, and scalability. From architecture to launch, we build websites designed to convert, perform, and evolve with your business.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-                <p class="lead text-start">Whether building a new e-commerce store or modernizing an outdated website, our technical precision and strategic approach ensure your digital goals are achieved. As seasoned web specialists, we engineer high-performance online stores using industry-leading platforms like WordPress/WooCommerce, Shopify (for scalable growth), Magento (enterprise-grade solutions), and headless CMS frameworks like Drupal. We adopt a platform-agnostic approach while analyzing your business model, target audience, and growth objectives to recommend the ideal CMS, framework, or custom stack that balances speed, security, and scalability. From architecture to launch, we build websites designed to convert, perform, and evolve with your business.</p>
-            </div>
-            
-            <div class="container text-center mt-3">
-                <a href="Contact" class="btn btn-danger" title="click here for more">GET IN TOUCH</a>
+                <div class="mt-5 pt-3">
+                    <a href="Contact" class="btn btn-lg btn-danger px-5 py-3 rounded-pill shadow-lg hover-shadow transition-all d-inline-flex align-items-center gap-2" title="Start Your Journey">
+                        <i class="bi bi-rocket-fill fs-4"></i>
+                        Launch Your Success
+                    </a>
+                </div>
             </div>
         </div>
         <!-- End Section -->
@@ -142,33 +190,71 @@
         <!-- Third Section -->
         <div class="container-fluid py-5 bg-primary text-light">
             <div class="container text-center">
-                <h2 class="fw-bold mb-3 text-uppercase"><span class="text-dark">Performance-Driven</span> Web Design & Development Experts</h2>
+                <h2 class="display-5 fw-bold mb-5 text-uppercase">
+                    Performance-Driven<br class="d-block d-md-none">
+                    Web Design & Development Experts
+                </h2>
 
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="mt-3">
-                            <img class="img-fluid" src="images/web-design-development-blog.jpg" alt="web-design-development-blog.jpg">
+                <div class="row g-5 align-items-center">
+                    <div class="col-md-6">
+                        <div class="shadow-lg rounded-4 overflow-hidden">
+                            <img class="img-fluid rounded-4" src="images/web-design-development-blog.jpg" 
+                                alt="Web Design and Development">
                         </div>
                     </div>
 
-                    <div class="col-sm-6">
-                        <div class="mt-3 text-start">
-                            <ol class="list-group list-group-numbered">
-                                <li class="list-group-item mb-3">Responsive and Customized Website Development.</li>
-                                <li class="list-group-item mb-3">Content Management System (CMS) Integration.</li>
-                                <li class="list-group-item mb-3">Secure Integration of Hosting and Payment Gateways.</li>
-                                <li class="list-group-item mb-3">Quick Page Loading and Browser Compatibility.</li>
-                                <li class="list-group-item mb-3">Improved Call To Action (CTA) and User Experience (UX) Design.</li>
-                                <li class="list-group-item mb-3">Social Media Marketing and Search Engine Optimization (SEO) Integration.</li>
+                    <div class="col-md-6">
+                        <div class="ps-lg-4">
+                            <ol class="list-group list-group-numbered border-0">
+                                <li class="list-group-item d-flex text-start mb-3 bg-dark text-light rounded-3 shadow-sm">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold">Responsive Development</div>
+                                        Mobile-first customized solutions
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex text-start mb-3 bg-dark text-light rounded-3 shadow-sm">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold">CMS Integration</div>
+                                        Seamless content management systems
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex text-start mb-3 bg-dark text-light rounded-3 shadow-sm">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold">Secure Hosting</div>
+                                        Protected payment gateways integration
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex text-start mb-3 bg-dark text-light rounded-3 shadow-sm">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold">Performance Optimization</div>
+                                        Fast loading & cross-browser support
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex text-start mb-3 bg-dark text-light rounded-3 shadow-sm">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold">UX/UI Excellence</div>
+                                        Enhanced CTAs & user journeys
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex text-start mb-3 bg-dark text-light rounded-3 shadow-sm">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold">Digital Marketing</div>
+                                        SEO & social media integration
+                                    </div>
+                                </li>
                             </ol>
                         </div>
                     </div>
-
                 </div>
-                <p class="text-start text-white mt-4">We've crafted a precision-engineered website design and development workflow, blending technical expertise with user-centric design to meet and surpass client goals. From responsive builds to performance optimization, our process ensures seamless functionality, SEO-ready architecture, and scalable solutions that drive measurable online</p>
+
+                <blockquote class="blockquote bg-dark rounded-4 p-4 mt-5 shadow-lg">
+                    <p class="mb-0 fst-italic">Our precision-engineered workflow combines technical mastery with user-centric design, delivering SEO-optimized, scalable solutions that consistently exceed client objectives through responsive builds and performance excellence.</p>
+                    <footer class="blockquote-footer mt-3 text-white">Digital Solutions Framework</footer>
+                </blockquote>
             </div>
         </div>
         <!-- End Third Section -->
+
 
         <!-- Begin Services Section -->
         <div class="container py-5 text-center">
@@ -257,53 +343,62 @@
         </div>
         <!-- End Services -->
 
+        
         <!-- Case Study -->
-        <div class="container-fluid bg-dark py-5 my-3 text-light">
+        <div class="container-fluid bg-dark py-5 text-light">
             <div class="container text-center">
-                <h2 class="fw-bold display-5 mb-2"><span class="text-danger">OUR</span> PROJECTS</h2>
-                <p class="lead text-start">Your website should be user-friendly and convey your unique selling point. We help you accelerate growth through the design and development of revenue-generating websites.</p>
-
-                <p class="lead text-start">From landing pages to product descriptions and blog posts, our writers will craft a compelling copy that accurately represents your brand and drives conversions. We have the skills and experience to deliver high-quality websites that drive results. Please work with us and get well-written, engaging web content optimized for success. We shall train your team with website management skills to make changes whenever possible.</p>
-
-                <div class="row g-4 mt-auto">
-                    <div class="col-md-4">
-                        <div class="card border-0 shadow-sm">
-                            <a href="https://www.sinepowerelectrics.com" target="_blank">
-                                <img class="card-img-top" src="images/Screenshot (1).png" alt="Sinepower Electrics">
-                            </a>
-                            <div class="card-body bg-light text-dark text-center">
-                                <p class="fw-bold mb-0">SINEPOWER ELECTRICS</p>
-                            </div>
-                        </div>
+                <h2 class="fw-bold display-4 mb-4"><span class="text-danger">OUR</span> PROJECTS <span class="d-block mt-2 border-bottom border-danger border-3 w-25 mx-auto"></span></h2>
+                
+                <div class="row g-4 mb-5 text-center text-md-start">
+                    <div class="col-md-6">
+                        <p class="lead mb-4">Your website should be user-friendly and effectively communicate your unique selling point. Our team specializes in designing and developing high-performing, revenue-generating websites that drive growth and enhance your online presence.</p>
                     </div>
-
-
-                    <div class="col-md-4">
-                        <div class="card border-0 shadow-sm">
-                            <a href="https://www.niacreation.com/" target="_blank">
-                                <img src="images/Screenshot (2).png" class="card-img-top" alt="Nia Creation">
-                            </a>
-                            <div class="card-body bg-light text-dark text-center">
-                                <p class="fw-bold mb-0">NIA CREATION LTD</p>
-                            </div>
-                        </div>
+                    <div class="col-md-6">
+                        <p class="lead mb-4">From landing pages to product descriptions and blog posts, our team crafts compelling content that aligns with your brand identity and enhances user engagement. As web specialists, we have the expertise to develop high-performance websites that look great and drive measurable results.</p>
                     </div>
-
-
-                    <div class="col-md-4">
-                        <div class="card border-0 shadow-sm">
-                            <a href="https://www.nilababyshop.com/" target="_blank">
-                                <img src="images/Screenshot (3).png" class="card-img-top" alt="Nila Baby Shop">
-                            </a>
-                            <div class="card-body bg-light text-dark text-center">
-                                <p class="fw-bold mb-0">NILA BABY SHOP</p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
-                <a href="Portfolio" class="btn btn-danger rounded-pill mt-4">View More Projects</a>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-lg-hover h-100 transition-all">
+                            <a href="https://www.sinepowerelectrics.com" target="_blank">
+                                <img class="card-img-top object-fit-cover" src="images/Screenshot (1).png" alt="Sinepower Electrics" style="height: 250px;">
+                            </a>
+                            <div class="card-body bg-light text-dark text-center py-4">
+                                <p class="fw-bold fs-5 mb-0">SINEPOWER ELECTRICS</p>
+                                <span class="text-muted">Industrial Solutions</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-lg-hover h-100 transition-all">
+                            <a href="https://www.niacreation.com/" target="_blank">
+                                <img src="images/Screenshot (2).png" class="card-img-top object-fit-cover" alt="Nia Creation" style="height: 250px;">
+                            </a>
+                            <div class="card-body bg-light text-dark text-center py-4">
+                                <p class="fw-bold fs-5 mb-0">NIA CREATION LTD</p>
+                                <span class="text-muted">Fashion Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-lg-hover h-100 transition-all">
+                            <a href="https://www.nilababyshop.com/" target="_blank">
+                                <img src="images/Screenshot (3).png" class="card-img-top object-fit-cover" alt="Nila Baby Shop" style="height: 250px;">
+                            </a>
+                            <div class="card-body bg-light text-dark text-center py-4">
+                                <p class="fw-bold fs-5 mb-0">NILA BABY SHOP</p>
+                                <span class="text-muted">Children's Retail</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="Portfolio" class="btn btn-danger btn-lg rounded-pill mt-5 px-5 py-3">
+                    View More Projects <i class="bi bi-arrow-right-circle ms-2"></i>
+                </a>
             </div>
         </div>
         <!-- End case study -->
