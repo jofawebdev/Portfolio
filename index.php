@@ -4,7 +4,7 @@
         <title>Jofawebdev - Website Development | IT Consulting | Digital Marketing</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -72,19 +72,23 @@
             <!-- The slideshow/carousel -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/61be16afc2df9.jpg" alt="61be16afc2df9" class="d-block" style="width: 100%;">
+                    <img src="images/61be16afc2df9.jpg" alt="61be16afc2df9" class="d-block w-100" style="width: 100%;">
                 </div>
+
                 <div class="carousel-item">
-                    <img src="images/digital-marketing-banner.png" alt="digital-marketing-banner" class="d-block" style="width: 100%;">
+                    <img src="images/digital-marketing-banner.png" alt="digital-marketing-banner" class="d-block w-100" style="width: 100%;">
                 </div>
+
                 <div class="carousel-item">
-                    <img src="images/upqode-services-web-design.jpeg" alt="upqode-services-web-design" class="d-block" style="width: 100%;">
+                    <img src="images/upqode-services-web-design.jpeg" alt="upqode-services-web-design" class="d-block w-100" style="width: 100%;">
                 </div>
+
                 <div class="carousel-item">
-                    <img src="images/Web-Design-and-Development-Banner-1030x359.jpg" alt="Web-Design-and-Development-Banner-1030x359" class="d-block" style="width: 100%;">
+                    <img src="images/Web-Design-and-Development-Banner-1030x359.jpg" alt="Web-Design-and-Development-Banner-1030x359" class="d-block w-100" style="width: 100%;">
                 </div>
+                
                 <div class="carousel-item">
-                    <img src="images/internet-marketing2.jpg" alt="internet-marketing2" class="d-block" style="width: 100%;">
+                    <img src="images/internet-marketing2.jpg" alt="internet-marketing2" class="d-block w-100" style="width: 100%;">
                 </div>
             </div>
 

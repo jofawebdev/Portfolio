@@ -4,7 +4,7 @@
         <title>Jofawebdev - Website Development | IT Consulting | Digital Marketing</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/Services.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -88,7 +88,7 @@
                         <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title"><b>Custom Website Development</b></h5>
-                            <p class="card-text text-start">Our software engineers have a wealth of experience in building web applications. There are two major aspects of web design that we take into consideration when reinventing your business: user experience and branding. The colors, layout, and other web design elements serve as a carefully crafted experience to help client's have confidence in you and pick up the phone.</p>
+                            <p class="card-text text-start">As seasoned web development specialists, we bring deep expertise in crafting custom digital solutions tailored to your unique business goals. When architecting your website, we prioritize two strategic pillars: user-centric functionality and cohesive brand storytelling. Every element—from color psychology to responsive layouts and intuitive navigation—is meticulously engineered through bespoke design. This approach creates a seamless, branded experience that resonates with your audience, builds trust, and drives measurable engagement. Our custom development process transforms websites into conversion-focused assets that compel users to connect with your business.</p>
                             <a href="custom website development" class="btn btn-danger rounded-pill mt-auto">Read More</a>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                         <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title"><b>E-commerce Website Development</b></h5>
-                            <p class="card-text text-start">All our eCommerce clients have benefitted from our edge-cutting technology in eCommerce websites. We have ensured that their websites have been optimized on mobile devices and multiple browsers, streamlined the checkout process for increased conversions and incorporated product reviews, ratings and recommendations and continued website maintenance.</p>
+                            <p class="card-text text-start">As web specialists in e-commerce website development, we deliver comprehensive solutions that leverage our cutting-edge technology to drive measurable results. Our expertise ensures your platform is fully optimized for seamless performance across mobile devices and all major browsers while our streamlined checkout process maximizes conversion rates. We integrate advanced features such as product reviews, ratings, and personalized recommendations to enhance user experience and engagement. Additionally, our team provides ongoing maintenance and support to keep your e-commerce site secure, up-to-date, and aligned with evolving market demands.</p>
                             <a href="ecommerce development" class="btn btn-danger rounded-pill mt-auto">Read More</a>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                         <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title"><b>Digital Growth | Marketing Services</b></h5>
-                            <p class="card-text text-start">Our Digital Marketing service offers comprehensive internet marketing solutions for companies and brands of all sizes. Social media is such an important part of many people's lives that it makes sense to be in their feeds. We have a team of digital marketing experts devoted throughout their careers to finding innovative and creative ways of increasing Brand Awareness.</p>
+                            <p class="card-text text-start">Our Digital Growth & Marketing Services deliver tailored strategies to elevate brands and drive measurable results across all digital ecosystems. Our team crafts integrated social media strategies that position your brand directly within your audience's daily feeds through targeted campaigns and authentic engagement. Comprised of web specialists dedicated to mastering the latest trends and technologies, our team leverages data-driven methodologies to amplify brand awareness, optimize user experiences, and foster meaningful connections. By aligning innovative creativity with analytical precision, we empower businesses of all sizes to compete and thrive in an ever-evolving digital landscape.</p>
                             <a href="digital marketing" class="btn btn-danger rounded-pill mt-auto">Read More</a>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                         <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title"><b>Search Engine Optimization</b></h5>
-                            <p class="card-text text-start">Our agency offers comprehensive local SEO services to help businesses boost their visibility and rankings in local organic search results. Search engine optimization (SEO) is the process of optimizing a website to rank higher in search engine results (SERPS) and increase organic traffic. Recent studies have proved that internet users only click on the results that appear on the first page, hence its crucial that your business is optimized for search engines to benefit from this traffic.</p>
+                            <p class="card-text text-start">Our agency delivers full-service Search Engine Optimization (SEO) solutions tailored to elevate businesses online presence, drive targeted traffic, and secure top rankings in local and national organic search results. As dedicated web specialists, we optimize websites through proven technical, on-page, and content SEO strategies that align with search engine algorithms. By leveraging our expertise in keyword research, schema markup, and localized SEO tactics, we ensure your site ranks higher and converts organic visibility into measurable growth in leads, revenue, and market authority.</p>
                             <a href="search engine optimization" class="btn btn-danger rounded-pill mt-auto">Read More</a>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                         <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title"><b>WordPress Development</b></h5>
-                            <p class="card-text text-start">We develop e-Commerce websites on wordpress platform. We believe wordpress is the best place for security, flexibility, added functionality through plugins. Our wordpress developers have a vast experience in custom wordpress development and integration. Our experts will help you customize your shop to suit your desires and customers' needs. We also have premium eCommerce themes that you can choose from in case you want a web design from a template.</p>
+                            <p class="card-text text-start">As web specialists, we craft robust eCommerce websites on the WordPress platform, leveraging its unmatched security, scalability, and flexibility to meet diverse business needs. WordPress empowers us to extend functionality seamlessly through premium plugins and custom code, ensuring your online store grows with your ambitions. Our team of WordPress developers brings years of expertise in custom WordPress development, WooCommerce integration, and seamless third-party system connections. Whether you envision a fully bespoke design or a tailored template-based solution, our experts will refine your shop to align perfectly with your brand vision and customer expectations.</p>
                             <a href="wordpress development" class="btn btn-danger rounded-pill mt-auto">Read More</a>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                         <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title"><b>UI & UX Design</b></h5>
-                            <p class="card-text text-start">Is your website or app causing frustration for users? Are you struggling to retain visitors or customers due to a confusing or clunky interface? Our UX researchers have specialized in transforming digital product or service experiences into user-friendly ones. Our expert designers and developers are here to work with you through consultation and comprehensive market research, understand your users' needs and create a customized solution that meets your business goals.</p>
+                            <p class="card-text text-start">Is your website or app distracting users with an outdated or unintuitive interface? Are you struggling to retain visitors or convert leads due to a disjointed user experience? Our UI/UX design team specializes in transforming digital friction into seamless, user-centered solutions. As web specialists, we collaborate closely with you to conduct in-depth market research, analyze user behavior, and identify pain points in your current interface. Through strategic wireframing, prototyping, and user testing, our expert designers and developers craft visually engaging, intuitive interfaces that streamline workflows and elevate engagement.</p>
                             <a href="ui & ux design" class="btn btn-danger rounded-pill mt-auto">Read More</a>
                         </div>
                     </div>
