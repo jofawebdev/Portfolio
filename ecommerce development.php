@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
@@ -62,196 +63,356 @@
         </header>
 
 
-        <!-- First Container -->
-        <div class="container my-2 py-4 text-center">
-            <h2 class="fw-bold">E-COMMERCE DEVELOPMENT COMPANY</b></h2>
+        <!-- First Section -->
+        <section class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-4">Digital Growth Architects</h2>
+                <p class="lead">Transforming digital visions into high-performing web experiences</p>
+            </div>
 
-            <div class="row">
-                <div class="col-sm-6 mt-2">
-                    <p class="text-start">As a trusted e-Commerce development service provider, Jofawebdev will help you get a beautifully designed website tailored to your target audience, smoothly functioning, secure, and integrated with all needed third-party services and systems.</p>
-                    <p class="text-start">Our e-commerce website design services are tailored to meet the needs of small and large businesses that are looking to establish a solid online presence and sell their products or services online. Our team uses the latest tools and technologies to ensure that your e-commerce website is visually appealing, user-friendly, and easy to navigate.</p>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="pe-lg-4">
+                        <div class="d-flex mb-4">
+                            <div class="me-4 text-primary">
+                                <i class="fas fa-rocket fa-2x"></i>
+                            </div>
+                            <div>
+                                <h3 class="h4 mb-3">Full-Cycle Web Solutions</h3>
+                                <p>Our team crafts responsive websites that combine aesthetic appeal with technical excellence. From initial concept to final deployment, we ensure seamless integration with modern tools and platforms.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-4">
+                            <div class="me-4 text-primary">
+                                <i class="fas fa-shield-alt fa-2x"></i>
+                            </div>
+                            <div>
+                                <h3 class="h4 mb-3">E-Commerce Expertise</h3>
+                                <p>We build secure, scalable online stores optimized for conversion. Our solutions include payment gateway integration, inventory management, and PCI-compliant security protocols.</p>
+                            </div>
+                        </div>
+
+                        <a href="Contact" class="btn btn-dark btn-lg mt-3 shadow-sm">
+                            Start Your Project <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
                 </div>
 
-                <div class="col-sm-6 mt-2">
-                    <img class="img-fluid" src="images/5e05d386ab3ae.jpg" alt="">
-                    <div class="container mt-3">
-                        <a href="Contact" class="btn btn-danger" title="click here for more">Request A Quote</a>
+                <div class="col-lg-6">
+                    <div class="position-relative">
+                        <img src="images/5e05d386ab3ae.jpg" class="img-fluid rounded-3 shadow" 
+                            alt="Team collaborating on web project" loading="lazy">
+                        <div class="position-absolute bottom-0 start-0 bg-white p-3 m-3 rounded-2 shadow-sm">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-trophy text-warning me-2"></i>
+                                <span class="small">Award-Winning Development</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        
+        <!-- Second Grid -->
+        <section class="bg-black text-white py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-4">Elevate Your Digital Presence</h2>
+                    <p class="lead mx-auto" style="max-width: 600px;">We craft high-performing web solutions that drive growth and engage customers</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Tailored Development -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="p-4 h-100 text-center">
+                            <i class="bi bi-code-square text-danger fs-1 mb-4"></i>
+                            <h3 class="h4 mb-3">Tailored Development</h3>
+                            <p class="text-secondary text-start">Our team builds custom web solutions that align perfectly with your business objectives and customer needs.</p>
+                        </div>
+                    </div>
+
+                    <!-- Responsive Excellence -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="p-4 h-100 text-center">
+                            <i class="bi bi-phone text-danger fs-1 mb-4"></i>
+                            <h3 class="h4 mb-3">Responsive Excellence</h3>
+                            <p class="text-secondary text-start">We create flawless mobile-first experiences that adapt beautifully to every screen size and device.</p>
+                        </div>
+                    </div>
+
+                    <!-- Scalable Architecture -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="p-4 h-100 text-center">
+                            <i class="bi bi-diagram-3 text-danger fs-1 mb-4"></i>
+                            <h3 class="h4 mb-3">Scalable Architecture</h3>
+                            <p class="text-secondary text-start">Our solutions grow with your business, featuring robust infrastructure and flexible content management.</p>
+                        </div>
+                    </div>
+
+                    <!-- Continuous Optimization -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="p-4 h-100 text-center">
+                            <i class="bi bi-shield-check text-danger fs-1 mb-4"></i>
+                            <h3 class="h4 mb-3">Continuous Optimization</h3>
+                            <p class="text-secondary text-start">We provide ongoing support with performance tuning, security updates, and conversion rate optimization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Web Solutions Section -->
+        <section class="container my-5 py-lg-5">
+            <div class="row gx-lg-5 align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <img src="images/qtq80-jGE1Md-2048x1365-2125300721.jpeg" 
+                        class="img-fluid rounded-3 shadow-lg" 
+                        alt="Team collaborating on web project">
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">Elevate Your Digital Presence with Expert Web Solutions</h2>
+                    
+                    <p class="lead text-muted mb-4">We deliver tailored web experiences that convert visitors into customers. Our full-spectrum services combine cutting-edge development with strategic digital insights.</p>
+
+                    <div class="row g-4 mb-4">
+                        <div class="col-md-6">
+                            <div class="p-3 border rounded bg-light">
+                                <h3 class="h5 mb-2">E-Commerce Excellence</h3>
+                                <p class="mb-0 small">Scalable platforms built for growth and conversions</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 border rounded bg-light">
+                                <h3 class="h5 mb-2">Web Optimization</h3>
+                                <p class="mb-0 small">Speed, SEO, and performance engineered to perfection</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="Contact" class="btn btn-primary btn-lg px-4">Schedule Free Consultation</a>
+                </div>
+            </div>
+        </section>
         <hr>
 
-        <!-- Responsive Grid -->
-        <div class="bg-dark text-white py-5">
-            <div class="container text-center">
-                <!-- Heading -->
-                <h3 class="text-light fw-bold mb-3">WHY CHOOSE OUR E-COMMERCE DEVELOPMENT SERVICES?</h3>
 
-                <div class="row">
-                    <!-- Customized Design-->
-                    <div class="col-lg-3 col-md-6 mb-4 mt-3">
-                        <div class="text-center">
-                            <i class="fas fa-pencil-ruler mb-3 text-white display-4"></i>
-                            <h4 class="text-danger fw-bold">Customized Design</h4>
-                            <p>We understand that every business is unique and has its own set of requirements. That's why we create customized e-commerce websites tailored to your business's needs.</p>
-                        </div>
+        <!-- Web Development Services -->
+        <div class="container my-5 py-lg-5">
+            <div class="row g-5 align-items-center">
+                <!-- Text Content (Left on desktop) -->
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <h2 class="display-5 fw-bold mb-4">Your Premier WooCommerce Development Partner</h2>
+                    
+                    <div class="fs-5 text-secondary">
+                        <p class="mb-4">We craft high-performance e-commerce solutions that drive conversions and scale with your business. Our full-stack expertise ensures every aspect of your digital presence works seamlessly together.</p>
+
+                        <ul class="list-unstyled">
+                            <li class="mb-3 d-flex align-items-center">
+                                <span class="text-primary me-2">✔</span>
+                                Custom store development & optimization
+                            </li>
+                            <li class="mb-3 d-flex align-items-center">
+                                <span class="text-primary me-2">✔</span>
+                                Secure payment gateway integration
+                            </li>
+                            <li class="mb-3 d-flex align-items-center">
+                                <span class="text-primary me-2">✔</span>
+                                Mobile-first responsive design
+                            </li>
+                        </ul>
                     </div>
 
-                    <!-- Mobile-Responsive Design -->
-                    <div class="col-lg-3 col-md-6 mb-4 mt-3">
-                        <div class="text-center">
-                            <i class="fas fa-mobile-alt mb-3 text-white display-4"></i>
-                            <h4 class="text-danger fw-bold">Mobile-Responsive Design</h4>
-                            <p>In today's mobile-first world, it's essential to have a website optimized for mobile devices. We create mobile-responsive e-commerce websites that look great on all devices.</p>
-                        </div>
-                    </div>
+                    <a href="Contact" class="btn btn-primary btn-lg px-4 mt-3">Start Your Project Today</a>
+                </div>
 
-                    <!-- Inventory Management -->
-                    <div class="col-lg-3 col-md-6 mb-4 mt-3">
-                        <div class="text-center">
-                            <i class="fas fa-sitemap mb-3 text-white display-4"></i>
-                            <h4 class="text-danger fw-bold">Inventory Management</h4>
-                            <p>We help you manage your e-commerce store's inventory, which includes keeping track of stock levels, setting up notifications for low stock levels, and managing product variants.</p>
-                        </div>
-                    </div>
-
-                    <!-- Ongoing Support -->
-                    <div class="col-lg-3 col-md-6 mb-4 mt-3">
-                        <div class="text-center">
-                            <i class="fas fa-code-branch mb-3 text-white display-4"></i>
-                            <h4 class="text-danger fw-bold">Ongoing Support</h4>
-                            <p>We provide continuing support to ensure your e-commerce website runs smoothly, including technical support, maintenance, and latest security updates to protect your website from malicious attacks.</p>
-                        </div>
-                    </div>
-
+                <!-- Image (Right on desktop) -->
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <img src="images/woocommerce-website-development-service-provider-company-in-india.jpg" 
+                        alt="Professional WooCommerce Development Team" 
+                        class="img-fluid rounded-3 shadow-lg">
                 </div>
             </div>
         </div>
-        <hr>
-        <!-- /Responsive Grid -->
-
-
-        <!-- Hire Dedicated Container -->
-        <div class="container my-2 py-4 text-center">
-            <h2 class="fw-bold mb-3">HIRE DEDICATED E-COMMERCE DEVELOPERS</b></h2>
-
-            <div class="row">
-                <div class="col-sm-6 mt-2">
-                    <p class="lead text-start">Look no further if you're looking for a reliable, experienced team to design and develop your e-commerce website. Contact us today to discuss your requirements, and let us help you take your business to the next level with a customized e-commerce website. We develop custom e-commerce websites and solutions for companies seeking the most reliable, stable, and secure e-commerce experience.</p>
-                </div>
-
-                <div class="col-sm-6 mt-2">
-                    <img class="img-fluid" src="images/5e05d386ab3ae.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <hr>
-
-
-        <!-- Development Company -->
-        <div class="container my-2 py-4 text-center">
-            <h2 class="fw-bold mb-3">WOOCOMMERCE DEVELOPMENT COMPANY</b></h2>
-
-            <div class="row">
-                <div class="col-sm-6 mt-2">
-                    <img class="img-fluid" src="images/woocommerce-website-development-service-provider-company-in-india.jpg" alt="">
-                </div>
-
-                <div class="col-sm-6 mt-2">
-                    <p class="lead text-start">Look no further if you're looking for a reliable, experienced team to design and develop your e-commerce website. Contact us today to discuss your requirements, and let us help you take your business to the next level with a customized e-commerce website. We develop custom e-commerce websites and solutions for companies seeking the most reliable, stable, and secure e-commerce experience.</p>
-                </div>
-            </div>
-        </div>
-        <hr>
 
 
         <!-- WooCommerce Development Solutions -->
-        <div class="container-fluid bg-primary py-5">
-            <div class="container my-2">
-                <h3 class="text-center mb-4 fw-bold"><span class="text-light">OUR WOOCOMMERCE DEVELOPMENT</span> SERVICES & SOLUTIONS</h3>
-                <!-- First Row -->
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <!-- First Column -->
-                    <div class="col">
-                        <div class="card h-100 bg-dark border-light">
-                            <div class="card-body text-white">
-                                <h4 class="text-warning fw-bold">Custom WooCommerce Development</h4>
-                                <p>We integrate bespoke features and functionality in our eCommerce shop to satisfy our clients' business demands. To get the required style and feel for your online shop, use our custom WooCommerce development solution. Our qualified WooCommerce developers have the knowledge and experience to provide the desired and exceptional services.</p>
-                            </div>
-                        </div>
-                    </div>
+        <section class="container-fluid bg-dark py-5">
+            <div class="container py-lg-5">
+                <header class="text-center mb-5">
+                    <h2 class="display-5 fw-bolder mb-3 text-white">
+                        Transform Your eCommerce Experience
+                        <span class="d-block text-gradient-primary mt-2">Premium WooCommerce Solutions</span>
+                    </h2>
+                    <p class="lead text-muted">Full-service platform development tailored to grow your online business</p>
+                </header>
 
-                    <!-- Second Column -->
-                    <div class="col">
-                        <div class="card h-100 bg-dark border-light">
-                            <div class="card-body text-white">
-                                <h4 class="text-warning fw-bold">Custom Theme Design & Integration</h4>
-                                    <p>We use WooCommerce's adaptability to create bespoke themes that boost your store's attractive looks. Our innovative UI/UX designers follow the latest industry trends, providing your eCommerce shop with the desired competitive advantage and commercial success.</p>
-                                </h4>
+                <div class="row g-4 row-cols-1 row-cols-lg-2 row-cols-xl-3">
+                    <article class="col">
+                        <div class="card h-100 border-0 shadow-lg hover-shadow-primary">
+                            <div class="card-body p-4">
+                                <div class="icon-xl bg-primary-soft rounded-circle mb-4">
+                                    <i class="bi bi-gear text-primary"></i>
+                                </div>
+                                <h3 class="h4 mb-3">Custom Store Development</h3>
+                                <p class="text-muted">Our expert developers craft tailored WooCommerce solutions that scale with your business. From complex product configurators to subscription models - we build what your marketplace demands.</p>
                             </div>
                         </div>
-                    </div>
-                    
-                    <!-- Third Column -->
-                    <div class="col">
-                        <div class="card h-100 bg-dark border-light">
-                            <div class="card-body text-white">
-                                <h4 class="text-warning fw-bold">WooCommerce UI/UX Design Solution</h4>
-                                <p>We create flawless and aesthetic user interfaces and designs that provide our clients with one-of-a-kind experiences and recognition. We provide responsive UX/UI design for mobile devices like iPhone, Android, and Windows. This improves the user experience, consequently raising the conversion rate.</p>
-                            </div>
-                        </div>
-                    </div>
+                    </article>
 
-                    <!-- Fourth Column -->
-                    <div class="col">
-                        <div class="card h-100 bg-dark border-light">
-                            <div class="card-body text-white">
-                                <h4 class="text-warning fw-bold">WooCommerce Plugin Development</h4>
-                                <p>Our skilled WordPress plugin developers use quality standards to provide fully working plugins to our customers. With our premium plugins, we provide ideal WooCommerce Plugin development solutions that provide seamless integration and compatibility with several WordPress versions.</p>
+                    <article class="col">
+                        <div class="card h-100 border-0 shadow-lg hover-shadow-primary">
+                            <div class="card-body p-4">
+                                <div class="icon-xl bg-primary-soft rounded-circle mb-4">
+                                    <i class="bi bi-palette text-primary"></i>
+                                </div>
+                                <h3 class="h4 mb-3">Conversion-Focused Design</h3>
+                                <p class="text-muted">Our design team creates mobile-first storefronts that balance brand aesthetics with data-driven UX principles. Watch bounce rates drop and conversions soar with our strategic approach.</p>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <!-- Fifth Column -->
-                    <div class="col">
-                        <div class="card h-100 bg-dark border-light">
-                            <div class="card-body text-white">
-                                <h4 class="text-warning fw-bold">WooCommerce Support & Maintenance</h4>
-                                <p>Our professional engineers provide WooCommerce maintenance and support services around the clock to reduce downtime. We do our best to keep our e-commerce shop functioning and running by resolving real-time bugs and other performance-related problems.</p>
+                    <article class="col">
+                        <div class="card h-100 border-0 shadow-lg hover-shadow-primary">
+                            <div class="card-body p-4">
+                                <div class="icon-xl bg-primary-soft rounded-circle mb-4">
+                                    <i class="bi bi-plug text-primary"></i>
+                                </div>
+                                <h3 class="h4 mb-3">Extension Ecosystem</h3>
+                                <p class="text-muted">Need custom payment gateways or ERP integrations? Our certified developers extend WooCommerce's capabilities while maintaining peak performance and security standards.</p>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
+                    <article class="col">
+                        <div class="card h-100 border-0 shadow-lg hover-shadow-primary">
+                            <div class="card-body p-4">
+                                <div class="icon-xl bg-primary-soft rounded-circle mb-4">
+                                    <i class="bi bi-speedometer2 text-primary"></i>
+                                </div>
+                                <h3 class="h4 mb-3">Performance Optimization</h3>
+                                <p class="text-muted">We transform sluggish stores into speed demons. Our optimization process includes server-level tuning, lean code practices, and intelligent caching strategies for sub-second load times.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col">
+                        <div class="card h-100 border-0 shadow-lg hover-shadow-primary">
+                            <div class="card-body p-4">
+                                <div class="icon-xl bg-primary-soft rounded-circle mb-4">
+                                    <i class="bi bi-shield-check text-primary"></i>
+                                </div>
+                                <h3 class="h4 mb-3">Ongoing Protection</h3>
+                                <p class="text-muted">Rest easy with our 24/7 monitoring and maintenance plans. We handle security patches, PCI compliance, and disaster recovery so you can focus on sales.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col">
+                        <div class="card h-100 border-0 shadow-lg hover-shadow-primary">
+                            <div class="card-body p-4">
+                                <div class="icon-xl bg-primary-soft rounded-circle mb-4">
+                                    <i class="bi bi-graph-up-arrow text-primary"></i>
+                                </div>
+                                <h3 class="h4 mb-3">Growth Strategy</h3>
+                                <p class="text-muted">Beyond development - we partner in your success. Our analytics team provides conversion rate optimization and customer journey mapping to maximize LTV.</p>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-
             </div>
-        </div>
+        </section>
 
-        <!-- Woocommerce store development -->
-        <div class="container py-5 text-center">
-            <h2><b>WOOCOMMERCE ONLINE STORE DEVELOPMENT</b></h2>
-            <p class="text-start">As a well-known WooCommerce development firm, we assist our customers in staying ahead of the competition by creating a completely responsive and one-of-a-kind eCommerce website. We design bespoke eCommerce themes for online businesses that reflect the brand's personality and vision. We provide a broad selection of eCommerce web store development options that completely fit your needs.</p>
+        
+        <!-- WooCommerce Development Services -->
+        <div class="container py-5 my-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center mb-5">
+                    <h2 class="display-5 fw-semibold mb-4">Elevate Your eCommerce Presence</h2>
+                    <p class="lead text-muted">As award-winning WooCommerce experts, we craft high-conversion online stores that combine stunning design with cutting-edge functionality. Our full-service approach ensures your digital storefront delivers exceptional user experiences across all devices while accelerating business growth.</p>
+                </div>
+            </div>
 
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="mt-2">
-                        <a href="#" target="_blank"><img class="img-fluid" src="images/Top-eCommerce-Development-Companies-in-India.jpg" alt=""></a>
-                        <hr>
+            <div class="row g-5 align-items-center">
+                <div class="col-md-6">
+                    <div class="shadow-lg rounded-3 overflow-hidden">
+                        <img src="images/Top-eCommerce-Development-Companies-in-India.jpg" class="img-fluid" alt="Modern WooCommerce Store Development" loading="lazy">
                     </div>
                 </div>
 
-                <div class="col-sm-6">
-                    <div class="mt-2 text-start">
-                        <ol class="list-group">
-                            <li class="list-group-item list-group-item-action list-group-item-success fw-bold mb-2">300+ Inbuilt features and Eye Catchy WooCommerce store</li>
-                            <li class="list-group-item list-group-item-action list-group-item-secondary fw-bold mb-2">Mobile ready & SEO Friendly shopping cart, easy checkout</li>
-                            <li class="list-group-item list-group-item-action list-group-item-info fw-bold mb-2">Robust CRM, Marketing and promotion tools</li>
-                            <li class="list-group-item list-group-item-action list-group-item-warning fw-bold mb-2">Tax, Invoice, Shipping Management, Review Ratings</li>
-                            <li class="list-group-item list-group-item-action list-group-item-danger fw-bold mb-2">Multiple Payment options for customers</li>
-                            <li class="list-group-item list-group-item-action list-group-item-primary fw-bold mb-2">Powerful inventory and supply chain management</li>
-                            <li class="list-group-item list-group-item-action list-group-item-dark fw-bold mb-2">High security & data privacy structure</li>
-                        </ol>
+                <div class="col-md-6">
+                    <div class="ps-xl-4">
+                        <h3 class="h4 mb-4">Our Comprehensive WooCommerce Solutions</h3>
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <div class="me-3 text-primary">✓</div>
+                                    <div>
+                                        <h4 class="h6 mb-2">Custom Store Development</h4>
+                                        <p class="small mb-0">Tailored solutions with 300+ built-in features and mobile-optimized layouts</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <div class="me-3 text-primary">✓</div>
+                                    <div>
+                                        <h4 class="h6 mb-2">Conversion-Focused Design</h4>
+                                        <p class="small mb-0">SEO-friendly architecture with intuitive navigation and streamlined checkout</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <div class="me-3 text-primary">✓</div>
+                                    <div>
+                                        <h4 class="h6 mb-2">Enterprise-Grade Security</h4>
+                                        <p class="small mb-0">PCI-compliant infrastructure with regular audits and malware protection</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <div class="me-3 text-primary">✓</div>
+                                    <div>
+                                        <h4 class="h6 mb-2">Advanced Integration</h4>
+                                        <p class="small mb-0">ERP/CRM connectivity, multi-carrier shipping, and global payment gateways</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 g-4 text-center">
+                <div class="col-md-4">
+                    <div class="border rounded-3 p-4 h-100">
+                        <div class="text-success mb-3">■</div>
+                        <h4 class="h5">Performance Optimization</h4>
+                        <p class="small">Lightning-fast load times with advanced caching and CDN integration</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="border rounded-3 p-4 h-100">
+                        <div class="text-success mb-3">■</div>
+                        <h4 class="h5">Ongoing Support</h4>
+                        <p class="small">24/7 monitoring, regular updates, and strategic maintenance plans</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="border rounded-3 p-4 h-100">
+                        <div class="text-success mb-3">■</div>
+                        <h4 class="h5">Data-Driven Analytics</h4>
+                        <p class="small">Advanced reporting dashboards with conversion rate optimization insights</p>
                     </div>
                 </div>
             </div>
