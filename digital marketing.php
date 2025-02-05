@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
@@ -62,142 +63,273 @@
         </header>
 
 
-        <!-- Digital Marketing Services in Kenya -->
-        <div class="container py-4 text-center">
-            <h2 class="fw-bold"><span class="text-danger"> DIGITAL MARKETING</span> SERVICES IN KENYA</h2>
-            <p class="lead text-start">Our digital marketing strategy is data-driven and results-oriented. We collaborate closely with our customers to understand their business objectives and develop a tailored plan that produces measurable outcomes. We offer the skills and resources to help your company expand and prosper in the digital world. Unlock your digital potential with our comprehensive range of digital marketing services. From technical SEO and authority-building to paid advertising and remarketing, social media marketing, email campaigns, search engine optimization, pay-per-click advertising, website experience optimization, and marketing technology and automation, our team of experts is ready to improve your digital presence and drive impactful results.</p>
-        </div>
-
-        <div class="container-fluid bg-light py-5">
-            <div class="container my-2">
-                <div class="row">
-                    <div class="col-sm-6 mt-2">
-                        <a href="#" target="_blank">
-                            <img class="img-fluid" src="images/Digital Marketing Banner.png" alt="">
-                        </a>
+        <!-- Digital Marketing Excellence -->
+        <div class="container py-5">
+            <h2 class="display-4 fw-bold text-center mb-4 border-bottom pb-3">
+                <span class="text-danger">Web Performance Architects</span><br> 
+                Traffic Meets Transformation
+            </h2>
+            
+            <div class="row g-4 mb-4">
+                <div class="col-md-4">
+                    <div class="p-3">
+                        <i class="bi bi-gear-fill fs-1 text-danger"></i>
+                        <h3 class="h4 mt-2">Technical Mastery</h3>
+                        <p>Our web specialists optimize core vitals, implement schema markup, and ensure mobile-first indexing compliance.</p>
                     </div>
-
-                    <div class="col-sm-6 mt-2">
-                        <p>Our digital growth marketing program offers a consultative and collaborative experience, bringing our teams together to cultivate a well-defined vision and strategy tailored to your digital endeavours. We emphasize a business objective, four essential KPIs, and a strategic blueprint to enhance your Digital Value progressively. The core of our digital growth plan lies in:</p>
-                        <ul>
-                            <li>Goal Tracking</li>
-                            <li>Meticulous Measurement</li>
-                            <li>Proactive Decision Making</li>
-                            <li>Fostering Adoption of Effective Practices</li>
-                        </ul>
-                    </div>
-
                 </div>
+                
+                <div class="col-md-4">
+                    <div class="p-3">
+                        <i class="bi bi-graph-up-arrow fs-1 text-danger"></i>
+                        <h3 class="h4 mt-2">Performance Marketing</h3>
+                        <p>We engineer conversion-focused campaigns through precise audience targeting and smart budget allocation.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="p-3">
+                        <i class="bi bi-shield-check fs-1 text-danger"></i>
+                        <h3 class="h4 mt-2">Web Integrity</h3>
+                        <p>Our team ensures HTTPS implementation, CSP headers, and regular security audits for digital trustworthiness.</p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="bg-light p-4 rounded-3">
+                <p class="lead">Our full-spectrum approach combines:</p>
+                <div class="row row-cols-2 row-cols-lg-4 g-4 text-center">
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <i class="bi bi-search-heart fs-3"></i>
+                                <p class="mb-0">Search Engine Dominance</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <i class="bi bi-cpu fs-3"></i>
+                                <p class="mb-0">Marketing Automation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <i class="bi bi-people fs-3"></i>
+                                <p class="mb-0">Social Architecture</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <i class="bi bi-envelope-check fs-3"></i>
+                                <p class="mb-0">Email Systems</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- /End First Container -->
+
+        
+        <!-- Second Grid --> 
+        <div class="container-fluid bg-light text-dark py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4">
+                        <img src="images/Digital Marketing Banner.png" class="img-fluid rounded-3 shadow-lg" alt="Digital Growth Framework" loading="lazy">
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <h3 class="h2 mb-4">Web-Centric Growth Framework</h3>
+                        <p class="mb-4">Our agile methodology combines technical excellence with digital strategy:</p>
+                        
+                        <ul class="list-unstyled">
+                            <li class="mb-3 d-flex">
+                                <i class="bi bi-speedometer2 text-danger me-3"></i>
+                                <div>
+                                    <h4 class="h6 mb-1">Performance Benchmarking</h4>
+                                    <p class="small mb-0">Core Web Vitals optimization and competitor gap analysis</p>
+                                </div>
+                            </li>
+                            <li class="mb-3 d-flex">
+                                <i class="bi bi-bar-chart-steps text-danger me-3"></i>
+                                <div>
+                                    <h4 class="h6 mb-1">Progressive Enhancement</h4>
+                                    <p class="small mb-0">Iterative UX improvements and conversion rate optimization</p>
+                                </div>
+                            </li>
+                            <li class="mb-3 d-flex">
+                                <i class="bi bi-shield-lock text-danger me-3"></i>
+                                <div>
+                                    <h4 class="h6 mb-1">Digital Safeguarding</h4>
+                                    <p class="small mb-0">Security hardening and compliance monitoring</p>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <a href="Contact" class="btn btn-danger mt-3">Audit Your Digital Presence →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
 
 
         <!-- Social Media Marketing Services -->
         <div class="container-fluid bg-dark text-light py-5">
-            <div class="container text-center">
-                <h2 class="fw-bold"><span class="text-warning"> SOCIAL MEDIA</span> MARKETING SERVICES</h2>
-
-                <div class="row">
-                    <div class="col-sm-6 mt-3">
-                        <p class="text-start"><span class="text-warning">Connection With Your Customer:</span> Social media is a great way to connect with your audience and will allow for more interaction, followers, and subscribers.</p>
-                        <hr>
-                        <p class="text-start"><span class="text-warning">Build Loyalty with Customers:</span> customers love social media, and keeping them happy will enhance your brand visibility and presence online.</p>
-                        <hr>
-                        <p class="text-start"><span class="text-warning">Improved Customer Service:</span> Using social media as a customer portal to communicate and answer questions is necessary.</p>
-                        <hr>
-                        <p class="text-start"><span class="text-warning">Experience Social Selling:</span> Selling products via social media is extremely popular, thanks to the likes of Instagram and Facebook shops.</p>
-                        <hr>
-                        <p class="text-start"><span class="text-warning">Credibility:</span> An established and clear brand will make you look like an expert. People will be more likely to buy if you appear professional.</p>
-                        <hr>
-                    </div>
-
-
-                    <div class="col-sm-6 mt-3">
-                        <a href="#" target="_blank">
-                            <img class="img-fluid mb-3" src="images/social-media-marketing.jpg" alt="">
-                        </a>
-                        <p class="text-start">Social media marketing is a golden chance to talk to your existing and prospective customers and engage with those who will shout about your brand, and it's now an essential factor in ranking well in search. It's also one of the most rapidly changing marketing channels, with new features and updates constantly released by Facebook, Instagram, Twitter, Tiktok, Linkedin & Youtube.</p>
-                    </div>
-
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-3">
+                        <span class="text-warning">Strategic Social Media</span> Marketing Solutions
+                    </h2>
+                    <p class="lead">Harnessing Social Platforms to Amplify Your Digital Presence</p>
                 </div>
 
+                <div class="row g-4 align-items-start">
+                    <div class="col-lg-8">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="d-flex">
+                                    <i class="fas fa-users text-warning fa-2x me-3"></i>
+                                    <div>
+                                        <h3 class="h5 text-warning">Audience Engagement</h3>
+                                        <p>Our targeted strategies create meaningful connections that convert followers into brand advocates through platform-specific interactions.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="d-flex">
+                                    <i class="fas fa-chart-line text-warning fa-2x me-3"></i>
+                                    <div>
+                                        <h3 class="h5 text-warning">Performance Analytics</h3>
+                                        <p>We implement data-driven optimization using real-time metrics to maximize your social ROI and campaign effectiveness.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="d-flex">
+                                    <i class="fas fa-shopping-bag text-warning fa-2x me-3"></i>
+                                    <div>
+                                        <h3 class="h5 text-warning">Social Commerce</h3>
+                                        <p>Our seamless integration of shoppable content and instant purchasing options transforms engagement into revenue.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="d-flex">
+                                    <i class="fas fa-shield-alt text-warning fa-2x me-3"></i>
+                                    <div>
+                                        <h3 class="h5 text-warning">Brand Authority</h3>
+                                        <p>We craft consistent, platform-optimized content that positions your business as an industry leader and trusted resource.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="position-relative">
+                            <img src="images/social-media-marketing.jpg" class="img-fluid rounded-3 shadow" alt="Social Media Strategy Development">
+                            <div class="position-absolute bottom-0 start-0 bg-warning text-dark p-3 rounded-end">
+                                <h4 class="h6 mb-0">Multi-Platform Mastery</h4>
+                            </div>
+                        </div>
+                        <p class="mt-3">Our web specialists engineer social strategies that integrate perfectly with your SEO, content marketing, and conversion rate optimization efforts. We stay ahead of algorithm updates and platform innovations to keep your brand visible and competitive.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
 
         <!-- FEATURES OF OUR SOCIAL MEDIA MARKETING SERVICES -->
-        <div class="container my-2 py-4">
-            <h2 class="mb-4 fw-bold text-center"><span class="text-primary">FEATURES OF OUR SOCIAL</span> MEDIA MARKETING SERVICES</h2>
-            <div class="row g-4">
+        <div class="container py-5">
+            <h2 class="mb-5 fw-bold text-center display-5">
+                <span class="text-primary">FEATURES OF OUR SOCIAL</span>
+                <span class="text-secondary">MEDIA MARKETING SERVICES</span>
+            </h2>
+            
+            <div class="row g-4 px-3">
                 <!-- Column 1 -->
                 <div class="col-md-4 d-flex">
-                    <div class="border border-warning rounded p-4 flex-fill d-flex flex-column">
-                        <h5 class="fw-bold">Perfoming A Competitor Analysis</h5>
-                        <ul>
-                            <li class="mb-2">Conducting a comprehensive study of your service area and competitive landscape.</li>
-                            <li class="mb-2">Discovering nearby rivals who, in terms of audience size and engagement, are now surpassing you.</li>
+                    <div class="border-top border-4 border-warning rounded p-4 flex-fill d-flex flex-column shadow-sm bg-white">
+                        <i class="bi bi-binoculars fs-2 text-warning mb-4"></i>
+                        <h5 class="fw-bold mb-3">Performing Competitor Analysis</h5>
+                        <ul class="text-secondary">
+                            <li class="mb-2">Comprehensive study of your service area and competitive landscape</li>
+                            <li class="mb-2">Identify competitors outperforming you in audience engagement</li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- Column 2 -->
                 <div class="col-md-4 d-flex">
-                    <div class="border border-success rounded p-4 flex-fill d-flex flex-column">
-                        <h5 class="fw-bold">Developing Engaging Organic Social Campaigns</h5>
-                        <ul>
-                            <li class="mb-2">Conducting research on engaging content for your audience.</li>
-                            <li class="mb-2">Regularly posting and scheduling posts.</li>
-                            <li class="mb-2">Monitoring interaction and engagement.</li>
+                    <div class="border-top border-4 border-success rounded p-4 flex-fill d-flex flex-column shadow-sm bg-white">
+                        <i class="bi bi-megaphone fs-2 text-success mb-4"></i>
+                        <h5 class="fw-bold mb-3">Engaging Organic Social Campaigns</h5>
+                        <ul class="text-secondary">
+                            <li class="mb-2">Research-driven content strategy</li>
+                            <li class="mb-2">Strategic post scheduling</li>
+                            <li class="mb-2">Real-time engagement monitoring</li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- Column 3 -->
                 <div class="col-md-4 d-flex">
-                    <div class="border border-danger rounded p-4 flex-fill d-flex flex-column">
-                        <h5 class="fw-bold">Data-Driven Social Media Advertising</h5>
-                        <ul>
-                            <li class="mb-2">Creating unique audiences to target your organization and brand more effectively and efficiently.</li>
-                            <li class="mb-2">Developing copy and visuals for high-performing social media advertisements.</li>
+                    <div class="border-top border-4 border-danger rounded p-4 flex-fill d-flex flex-column shadow-sm bg-white">
+                        <i class="bi bi-bar-chart-line fs-2 text-danger mb-4"></i>
+                        <h5 class="fw-bold mb-3">Data-Driven Social Advertising</h5>
+                        <ul class="text-secondary">
+                            <li class="mb-2">Precision audience targeting</li>
+                            <li class="mb-2">High-performing ad creative development</li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- Column 4 -->
                 <div class="col-md-4 d-flex">
-                    <div class="border border-primary rounded p-4 flex-fill d-flex flex-column">
-                        <h5 class="fw-bold">Monitoring Your Social Campaigns</h5>
-                        <ul>
-                            <li class="mb-2">Tracking and improving the reach of your audience.</li>
-                            <li class="mb-2">Monitoring engagement rate.</li>
-                            <li class="mb-2">Tracking and improving lead generation and click-through rates.</li>
-                            <li class="mb-2">Tracking and enhancing the ROI of your sponsored social media efforts.</li>
+                    <div class="border-top border-4 border-primary rounded p-4 flex-fill d-flex flex-column shadow-sm bg-white">
+                        <i class="bi bi-speedometer2 fs-2 text-primary mb-4"></i>
+                        <h5 class="fw-bold mb-3">Campaign Performance Monitoring</h5>
+                        <ul class="text-secondary">
+                            <li class="mb-2">Audience reach optimization</li>
+                            <li class="mb-2">Engagement rate tracking</li>
+                            <li class="mb-2">ROI-focused campaign adjustments</li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- Column 5 -->
                 <div class="col-md-4 d-flex">
-                    <div class="border border-dark rounded p-4 flex-fill d-flex flex-column">
-                        <h5 class="fw-bold">Keeping Track of Your Social Reputation</h5>
-                        <ul>
-                            <li class="mb-2">Monitoring comments on social media.</li>
-                            <li class="mb-2">Monitoring social media comments and sentiment.</li>
-                            <li class="mb-2">Monitoring campaign-related social media activity.</li>
-                            <li class="mb-2">Tracking social media conversation and brand mentions.</li>
+                    <div class="border-top border-4 border-dark rounded p-4 flex-fill d-flex flex-column shadow-sm bg-white">
+                        <i class="bi bi-heart-pulse fs-2 text-dark mb-4"></i>
+                        <h5 class="fw-bold mb-3">Social Reputation Management</h5>
+                        <ul class="text-secondary">
+                            <li class="mb-2">Real-time comment monitoring</li>
+                            <li class="mb-2">Sentiment analysis</li>
+                            <li class="mb-2">Brand mention tracking</li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- Column 6 -->
                 <div class="col-md-4 d-flex">
-                    <div class="border border-info rounded p-4 flex-fill d-flex flex-column">
-                        <h5 class="fw-bold">Increasing Your Efficiency via Website Integration</h5>
-                        <ul>
-                            <li class="mb-2">Social media widgets are installed on the Website</li>
-                            <li class="mb-2">Optional Website social feed.</li>
-                            <li class="mb-2">Including social sharing buttons on websites, such as "Pin this" or "Share on Facebook."</li>
+                    <div class="border-top border-4 border-info rounded p-4 flex-fill d-flex flex-column shadow-sm bg-white">
+                        <i class="bi bi-puzzle fs-2 text-info mb-4"></i>
+                        <h5 class="fw-bold mb-3">Website Integration Solutions</h5>
+                        <ul class="text-secondary">
+                            <li class="mb-2">Social media widget implementation</li>
+                            <li class="mb-2">Interactive social feed integration</li>
+                            <li class="mb-2">Strategic social sharing buttons</li>
                         </ul>
                     </div>
                 </div>
@@ -205,120 +337,215 @@
         </div>
 
 
-        <!-- Content Marketing Services -->
-        <div class="container-fluid py-4 bg-primary text-light">
-            <div class="container text-center">
-                <h2 class="fw-bold text-dark">CONTENT <span class="text-light">MARKETING</span> SERVICES</h2>
-                <p class="lead text-start">Content marketing builds communities, inspires engagement, and increases rankings by creating and sharing high-quality, problem-solving, relevant information to satisfy business objectives. It helps influence consumer behavior, aiming to boost sales and increase interaction between the brand and the customer.</p>
-                
-                <div class="row">
-                    <div class="col-sm-6 mt-3">
-                        <a href="#" target="_blank">
-                            <img class="img-fluid" src="images/content marketing.jpg" alt="">
-                        </a>
-                        <hr>
-                        <p class="text-start">We know the importance of a successful content marketing campaign, so we create informative, engaging, and persuasive content that captures customers' interests. We provide content that will convince web users to click through your website for special offers, purchase your products, or contact you about your services because our experienced copywriters know how to make words sell.</p>
-                    </div>
-
-                    <div class="col-sm-6 mt-3">
-                        <h5 class="fw-bold text-start">Solutions We Offer <span class="text-light">In Content Marketing</span></h5>
-                        <p class="text-start mb-3"><span class="text-dark fw-bold">Industry News -</span> Up-to-date industry-related posts that inform, educate and entertain readers, increasing social media engagement, improving your online reputation, and gaining credibility.</p>
-                        <p class="text-start mb-3"><span class="text-dark fw-bold">Press Releases -</span> Boost your online profile and increase website traffic with newsworthy stories about your brand submitted to news portals and press release distribution services.</p>
-                        <p class="text-start mb-3"><span class="text-dark fw-bold">Case Studies -</span> Inspire confidence in your target audience with in-depth reports to summarize projects from start to finish and explicitly document the results achieved in performance measures.</p>
-                        <p class="text-start mb-3"><span class="text-dark fw-bold">White Papers -</span> promote your business with high-quality white paper marketing that will substantially increase your social media engagement levels and solidify your position in the industry.</p>
-                    </div>
-
+        <!-- Content Marketing Services Section -->
+        <section class="container-fluid py-5 bg-light text-dark">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bolder mb-3">
+                        <span class="text-dark">Content</span> 
+                        <span class="text-light bg-dark px-3 rounded-1">Marketing</span> 
+                        <span class="text-dark">Mastery</span>
+                    </h2>
+                    <p class="lead text-muted mx-auto" style="max-width: 800px;">
+                        Transform your digital presence with strategic content that converts. Our data-driven approach combines creativity and analytics to build authority, foster connections, and drive measurable business growth.
+                    </p>
                 </div>
 
+                <div class="row g-5 align-items-start">
+                    <div class="col-lg-6">
+                        <div class="shadow-lg rounded-3 overflow-hidden">
+                            <img src="images/content marketing.jpg" alt="Content strategy workflow" class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="h4 text-dark mb-3">Why Our Content Converts</h3>
+                            <div class="d-flex align-items-start mb-3">
+                                <div class="me-3">➔</div>
+                                <p class="mb-0">Persuasive storytelling blended with SEO best practices that captures attention and holds interest</p>
+                            </div>
+                            <div class="d-flex align-items-start mb-3">
+                                <div class="me-3">➔</div>
+                                <p class="mb-0">Conversion-focused writing that guides users through the buyer's journey</p>
+                            </div>
+                            <div class="d-flex align-items-start">
+                                <div class="me-3">➔</div>
+                                <p class="mb-0">Multi-channel content strategies tailored to your business objectives</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="bg-dark text-light p-4 rounded-3">
+                            <h3 class="h2 mb-4">Strategic Content Solutions</h3>
+                            <div class="mb-4">
+                                <h4 class="h5 text-warning">Industry Authority Building</h4>
+                                <p>Cutting-edge industry analysis and trend reports that position you as a thought leader</p>
+                            </div>
+                            <div class="mb-4">
+                                <h4 class="h5 text-warning">Brand Amplification</h4>
+                                <p>Impactful press releases distributed through our premium media network</p>
+                            </div>
+                            <div class="mb-4">
+                                <h4 class="h5 text-warning">Success Documentation</h4>
+                                <p>Detailed case studies showcasing measurable client outcomes and ROI</p>
+                            </div>
+                            <div class="mb-4">
+                                <h4 class="h5 text-warning">Expert Positioning</h4>
+                                <p>Comprehensive white papers that demonstrate technical expertise and innovation</p>
+                            </div>
+                            <a href="Contact" target="_blank">
+                                <button class="btn btn-outline-light w-100">Explore Content Strategies →</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
 
 
         <!-- Copyright Services -->
-        <div class="container py-4 my-2 text-center">
-            <h2 class="fw-bold text-danger mb-3">COPYWRITING SERVICES</h2>
-            <div class="row">
-                <div class="col-sm-6 mt-3">
-                    <a href="#" target="_blank">
-                        <img class="img-fluid" src="images/Copywriting-ecommerce.jpg" alt="">
-                    </a>
+        <section class="container py-5">
+            <div class="text-center mb-4">
+                <h2 class="display-5 fw-bold text-danger mb-4">Strategic Copywriting Solutions</h2>
+                <p class="lead text-muted">Crafting Words That Drive Action and Build Brands</p>
+            </div>
+
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="shadow-lg rounded-4 overflow-hidden">
+                        <img class="img-fluid w-100" src="images/Copywriting-ecommerce.jpg" alt="E-commerce copywriting process" loading="lazy">
+                    </div>
                 </div>
 
-                <div class="col-sm-6 mt-3">
-                    <p class="text-start lead">At jofawebdev, we recognize that each business is unique and every business has a story that needs to be told. Our goal is to tell your story compellingly to ensure that your business stands out from the crowd. With strong website copy, your website can more readily convert visitors into customers and help you get one step ahead of your competition. Copywriting is not only for your website but is also used in all written communication utilized to market and promote your products and services.</p>
+                <div class="col-lg-6">
+                    <div class="ps-xl-4">
+                        <p class="fs-5 text-secondary mb-4">
+                            At JofaWebDev, we transform your unique business narrative into compelling copy that converts. Our data-driven approach combines emotional storytelling with strategic persuasion to elevate your brand presence across all digital platforms.
+                        </p>
+                        <div class="d-grid gap-3 d-sm-flex">
+                            <a href="Contact" class="btn btn-danger btn-lg px-4">Schedule Content Audit</a>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Objectives Section -->
+        <section class="bg-dark py-5">
+            <div class="container py-2">
+                <h2 class="text-center display-6 text-light mb-5">Copywriting Impact Framework</h2>
+                
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="h-100 bg-black bg-opacity-25 p-4 rounded-3 border border-warning border-opacity-25">
+                            <h3 class="h4 text-warning mb-3">Conversion Engineering</h3>
+                            <p class="text-light opacity-75 mb-0">Strategic wordcraft that guides customers through the decision journey, addressing objections while highlighting unique value propositions.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="h-100 bg-black bg-opacity-25 p-4 rounded-3 border border-warning border-opacity-25">
+                            <h3 class="h4 text-warning mb-3">Audience Magnetism</h3>
+                            <p class="text-light opacity-75 mb-0">SEO-optimized narratives that attract quality leads while establishing thought leadership in your industry vertical.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="h-100 bg-black bg-opacity-25 p-4 rounded-3 border border-warning border-opacity-25">
+                            <h3 class="h4 text-warning mb-3">Brand Alchemy</h3>
+                            <p class="text-light opacity-75 mb-0">Consistent voice development across all touchpoints that transforms casual users into brand advocates through authentic engagement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Social Media Management -->
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-12 text-center">
+                    <h2 class="display-5 fw-bold">
+                        Transform Your Social Presence
+                    </h2>
+                    <p class="lead text-muted">Strategic social media solutions that drive engagement and fuel business growth</p>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="shadow-lg rounded-4 overflow-hidden">
+                        <img src="images/hero-image-2000x1048-1.jpg" alt="Social media strategy meeting" class="img-fluid hover-zoom">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="ps-lg-4">
+                        <h3 class="h2 mb-4">Why Social Media Matters</h3>
+                        <div class="text-muted fs-5">
+                            <p>In today's digital landscape, a dynamic social strategy acts as your brand's growth engine. We specialize in:</p>
+                            <ul class="list-unstyled icon-list">
+                                <li class="mb-3"><i class="bi bi-check2-circle text-success me-2"></i>Audience-focused content creation</li>
+                                <li class="mb-3"><i class="bi bi-check2-circle text-success me-2"></i>Cross-platform campaign integration</li>
+                                <li class="mb-3"><i class="bi bi-check2-circle text-success me-2"></i>Data-driven performance optimization</li>
+                            </ul>
+                            <p>Our team bridges the gap between your brand objectives and audience expectations through strategic platform management and community building.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mt-4">
+                    <div class="bg-light p-4 rounded-4 border-start border-4 border-warning">
+                        <h4 class="h3 text-dark mb-3">360° Platform Management</h4>
+                        <p class="text-secondary mb-0">From TikTok trends to LinkedIn thought leadership, we master platform-specific strategies that deliver measurable results through organic engagement and targeted advertising.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-
-
-        <!-- Objectives of Copywriting -->
-        <div class="container-fluid my-2 py-4 bg-dark text-light">
-            <div class="container mt-3">
-                <h2 class="fw-bold text-center">OBJECTIVES OF COPYWRITING</h2>
-                <div class="row d-flex align-items-stretch">
-                    <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex flex-column">
-                        <h5 class="text-warning fw-bold">Making The Sale</h5>
-                        <p class="text-start">copywriting is used to help prospective customers learn more about your product and why they need it. The use of precise wording can be very effective toward this goal.</p>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex flex-column">
-                        <h5 class="text-warning fw-bold">Attracting Customers</h5>
-                        <p class="text-start">When you want your business to bring in new customers, copywriting can do this very effectively. Your copy helps build the foundation for the actual sale and prepares the customer by answering many of their questions beforehand and fielding their potential reasons not to buy.</p>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex flex-column">
-                        <h5 class="text-warning fw-bold">Building Relationships</h5>
-                        <p class="text-start">A business can build credibility for its services and products and establish rapport with copywriting.</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Social Media Management Services -->
-        <div class="container py-4 text-center">
-            <h2 class="fw-bold mb-2">SOCIAL MEDIA MANAGEMENT SERVICES</h2>
-            <p class="text-start lead">An effective social strategy can help you grow your business, maintain your social presence and engage with the audience. We can help you establish your business objectives, identify your target audience, create engaging and share-worthy content and finally integrate your social media with aspects of your online presence. You'll get fully supported and managed social programs, content planning & generation, blogger outreach and video distribution among other services that aim to attract new customers and increase your profitability.</p>
-
-            <div class="row">
-                <div class="col-sm-6 mt-3">
-                    <a href="#" target="_blank">
-                        <img class="img-fluid" src="images/hero-image-2000x1048-1.jpg" alt="">
-                    </a>
-                </div>
-
-                <div class="col-sm-6 mt-3">
-                    <p class="text-start mb-2">Jofawebdev weaves social media management services into your overall marketing strategy to maximize your online presence. The right Facebook and Instagram management service can attract, nurture and convert followers into loyal customers. As social media evolves, market players maintain each channel's core purpose: the trifecta of connection, communication and community. Research has proved that most consumers will follow a brand's social page to learn about new products or services.</p>
-                    <p class="text-start">It's why brands should make sure they're posting content that satisfies connection and engages in communication while building community. Social media management covers planning, crafting, and publishing content on social platforms. It involves regular social profile audits and audience research, which are essential to rolling out relevant content.</p>
-                </div>
-
-                <p class="text-start lead mt-3">Social media advertising results are reflected in re-tweets, shares, comments, likes, and views. Social media management encourages user-generated content from popular social media platforms such as Facebook, Google+, Twitter, Pinterest, and LinkedIn. Social media marketing entails more integrated processes to ensure an interconnectedness between your customer, content, and company.</p>
-            </div>
-        </div>
-
-
-        <div class="container py-4">
-            <div class="row g-4 text-start">
-                <div class="col-md-4 d-flex">
-                    <div class="border-start border-success p-3 d-flex flex-column">
-                        <h4 class="text-dark fw-bold">STRATEGY CREATION</h4>
-                        <p>The plan containing your social media goals, steps to achieve them, a corresponding timeline, and metrics to track progress. Some significant factors we consider are which platforms to capitalize on, who your audience is, what types of content to produce, what KPIs to measure, and which social media management software to use.</p>
+        <!-- Service Pillars -->
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="h-100 p-4 bg-white shadow-sm rounded-3 border-start border-4 border-success">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-pie-chart-fill fs-1 text-success me-3"></i>
+                            <h3 class="h4 mb-0">Strategic Foundation</h3>
+                        </div>
+                        <p class="text-secondary">Customized roadmaps featuring platform selection, content calendars, and KPI frameworks tailored to your business objectives.</p>
+                        <ul class="list-styled text-muted small">
+                            <li>Competitive analysis</li>
+                            <li>Audience persona development</li>
+                            <li>Content lifecycle planning</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="col-md-4 d-flex">
-                    <div class="border-start border-danger p-3 d-flex flex-column">
-                        <h4 class="text-primary fw-bold">INBOUND ENGAGEMENT MONITORING</h4>
-                        <p>Responding to comments, questions, and interactions with all social media content and profiles and continuing conversations initiated by fans. Research has proved that most consumers desire a connection with brands hence the need to strive to facilitate two-way communication at every chance.</p>
+                <div class="col-md-4">
+                    <div class="h-100 p-4 bg-white shadow-sm rounded-3 border-start border-4 border-primary">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-chat-dots-fill fs-1 text-primary me-3"></i>
+                            <h3 class="h4 mb-0">Community Cultivation</h3>
+                        </div>
+                        <p class="text-secondary">24/7 engagement monitoring and relationship building that transforms followers into brand advocates.</p>
+                        <ul class="list-styled text-muted small">
+                            <li>Real-time response management</li>
+                            <li>User-generated content campaigns</li>
+                            <li>Influencer partnership programs</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="col-md-4 d-flex">
-                    <div class="border-start border-primary p-3 d-flex flex-column">
-                        <h4 class="text-danger fw-bold">ANALYTICS MONITORING</h4>
-                        <p>The gathering and checking data against metrics to ensure the accomplishment of results. Let data drive your corporate or franchise social media management campaigns. You can monitor essential metrics on your chosen platforms, such as engagement metrics (likes, shares, and comments), impressions, and click-through rates (for targeted social ads).</p>
+                <div class="col-md-4">
+                    <div class="h-100 p-4 bg-white shadow-sm rounded-3 border-start border-4 border-info">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-graph-up-arrow fs-1 text-info me-3"></i>
+                            <h3 class="h4 mb-0">Performance Intelligence</h3>
+                        </div>
+                        <p class="text-secondary">Actionable insights from engagement metrics, conversion tracking, and ROI analysis across all platforms.</p>
+                        <ul class="list-styled text-muted small">
+                            <li>Campaign A/B testing</li>
+                            <li>Sentiment analysis</li>
+                            <li>Conversion attribution modeling</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -326,25 +553,89 @@
 
 
         <!-- Social Media Advertising -->
-        <div class="container-fluid bg-light text-dark py-5">
-            <div class="container text-center">
-                <h2 class="fw-bold text-primary mb-3">SOCIAL MEDIA ADVERTISING</h2>
-                <p class="text-start mb-3">As your trusted social media advertising company, we leverage social media data to dissect your audience demographics, identify customer preferences and craft a marketing strategy that delivers unmatched results!</p>
-                <p class="text-start">Paid social advertising focuses on fine-tuning social media advertisement for better reach and higher ROI. Advertising on social media channels puts your brand in front of people looking for what you offer right now. The competition also increases as more people use social media to connect with businesses. Let us refine your social media ad strategy and serve social media advertising that hooks the attention of your target leads throughout your marketing funnel.</p>
+        <section class="container-fluid bg-light py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold text-primary mb-4 underline">
+                        Master Social Media Advertising
+                    </h2>
+                    <p class="lead text-muted mb-4">
+                        Transform your social presence into measurable business results with data-driven strategies
+                    </p>
+                </div>
 
-                <div class="row">
-                    <div class="col-sm-6 mt-3">
-                        <a href="#" target="_blank">
-                            <img class="img-fluid" src="images/Social-Media Advertising.jpg" alt="">
-                        </a>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="ratio ratio-16x9 shadow-sm rounded-3 overflow-hidden">
+                            <img src="images/Social-Media Advertising.jpg" 
+                                alt="Social media analytics dashboard" 
+                                class="object-fit-cover">
+                        </div>
                     </div>
 
-                    <div class="col-sm-6 mt-3">
-                        <p class="text-start lead">Social media advertising or paid social media is one of the most popular and effective digital marketing methods for boosting conversion rates. Advertising on social media involves displaying paid social ads or sponsored content on various social media platforms such as Facebook,LinkedIn, Instagram, Pinterest, and TikTok, and targeting specific customer demographics. Social networks advertising allows you to direct your campaigns to specific audiences by criteria, such as location, age, online behavior, interests and device use. Unlike other online marketing initiatives, you only have to pay for the number of clicks or impressions your social ads get when you're advertising through social media.</p>
+                    <div class="col-lg-6">
+                        <div class="bg-white p-4 rounded-3 shadow-sm">
+                            <p class="fw-semibold fs-5 mb-4">
+                                💡 Why Paid Social Media Works:
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-3 text-primary">✓</div>
+                                        <div>
+                                            <h3 class="h6 fw-bold">Laser-Focused Targeting</h3>
+                                            <p class="text-muted small mb-0">
+                                                Reach exact demographics based on location, interests, behavior, and device usage
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-3 text-primary">✓</div>
+                                        <div>
+                                            <h3 class="h6 fw-bold">Performance-Driven Budgets</h3>
+                                            <p class="text-muted small mb-0">
+                                                Pay only for engagement with transparent CPC/CPM models
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-3 text-primary">✓</div>
+                                        <div>
+                                            <h3 class="h6 fw-bold">Cross-Platform Expertise</h3>
+                                            <p class="text-muted small mb-0">
+                                                Facebook, Instagram, LinkedIn, TikTok, Pinterest - we master them all
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-3 text-primary">✓</div>
+                                        <div>
+                                            <h3 class="h6 fw-bold">Full Funnel Optimization</h3>
+                                            <p class="text-muted small mb-0">
+                                                From brand awareness to conversion-ready audiences
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <div class="text-center mt-5">
+                    <a href="Contact" class="btn btn-primary btn-lg px-5">
+                        Boost Your Social ROI Now
+                    </a>
+                </div>
+
             </div>
-        </div>
+        </section>
         <!-- End Social Advertising -->
 
 

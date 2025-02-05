@@ -69,7 +69,7 @@
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-primary fw-bold">Mastering Core Web Vitals: A Web Specialist's Guide to Boosting Performance</h5>
                             <p class="card-text text-start">Learn how to optimize the Largest Contentful Paint (LCP), First Input Delay (FID), and Cumulative Layout Shift (CLS) to improve user experience and SEO rankings. Discover actionable tools like Google PageSpeed Insights and Lighthouse audits.</p>
-                            <a href="custom website development" class="btn btn-warning rounded-pill mt-auto">Read More</a>
+                            <a href="#" class="btn btn-warning rounded-pill mt-auto">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-primary fw-bold">Responsive Design 2024: Beyond Media Queries for Seamless UX</h5>
                             <p class="card-text text-start">Explore advanced techniques like fluid grids, CSS Flexbox, and mobile-first frameworks to create adaptive layouts. Dive into real-world case studies on reducing bounce rates with cross-device compatibility.</p>
-                            <a href="ecommerce development" class="btn btn-warning rounded-pill mt-auto">Read More</a>
+                            <a href="#" class="btn btn-warning rounded-pill mt-auto">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-primary fw-bold">Web Security Essentials: Protecting Your Site from Common Vulnerabilities</h5>
                             <p class="card-text text-start">Learn how to safeguard your codebase from XSS attacks to SQL injections. We'll cover HTTPS implementation, CSP headers, and automated scanning tools like Snyk to keep threats at bay.</p>
-                            <a href="digital marketing" class="btn btn-warning rounded-pill mt-auto">Read More</a>
+                            <a href="#" class="btn btn-warning rounded-pill mt-auto">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-primary fw-bold">JavaScript Frameworks Decoded: Choosing React, Vue, or Angular in 2024</h5>
                             <p class="card-text text-start">Compare performance, scalability, and developer ecosystems of leading frameworks. Get insights into when to pick Svelte for lightweight apps or Next.js for SSR-driven projects.</p>
-                            <a href="search engine optimization" class="btn btn-warning rounded-pill mt-auto">Read More</a>
+                            <a href="#" class="btn btn-warning rounded-pill mt-auto">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-primary fw-bold">SEO for Developers: Technical Strategies to Dominate Search Rankings</h5>
                             <p class="card-text text-start">Uncover hidden SEO wins with structured data, crawl budget optimization, and dynamic rendering. Plus, leverage tools like Screaming Frog to audit and fix critical on-page issues.</p>
-                            <a href="wordpress development" class="btn btn-warning rounded-pill mt-auto">Read More</a>
+                            <a href="#" class="btn btn-warning rounded-pill mt-auto">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,7 @@
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-primary fw-bold">The Future of Web Development: AI, PWAs, and WebAssembly Trends</h5>
                             <p class="card-text text-start">Stay ahead with insights into AI-powered chatbots, Progressive Web Apps for offline functionality, and WebAssembly for near-native speed. Learn how to future-proof your skill set.</p>
-                            <a href="ui & ux design" class="btn btn-warning rounded-pill mt-auto">Read More</a>
+                            <a href="#" class="btn btn-warning rounded-pill mt-auto">Read More</a>
                         </div>
                     </div>
                 </div>

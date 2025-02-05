@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
@@ -63,145 +64,242 @@
 
 
         <!-- WordPress Development -->
-        <div class="container py-4 my-2">
-            <h2 class="fw-bold text-center">WORDPRESS WEBSITE DEVELOPMENT</h2>
-            <p class="text-start">We're a trusted and results-driven WordPress website design company that sets you up on the most user-friendly web platform available. WordPress is an open-source software and content management system that powers websites, blogs, complex portals, enterprise websites, applications, etc. WordPress themes decide your website's look and feel, while plugins add functionality, such as adding a contact form or installing SEO Tools. Our WordPress experts equip your business site to perform at its best to attract more traffic and generate more leads.</p>
+        <section class="container py-5">
+            <div class="text-center mb-5">
+                <i class="bi bi-wordpress display-4 text-primary"></i>
+                <h2 class="display-5 fw-bold mb-3">Modern WordPress Solutions</h2>
+                <p class="lead">Transform your digital presence with our cutting-edge WordPress development expertise</p>
+            </div>
 
-            <div class="row">
-                <div class="col-sm-6 mt-3">
-                    <a href="#" target="_blank">
-                        <img class="img-fluid" src="images/221744001e109d11d487eec7f4c90504.jpg" alt="">
-                    </a>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="rounded-4 overflow-hidden shadow-lg">
+                        <img src="images/221744001e109d11d487eec7f4c90504.jpg" class="img-fluid" alt="WordPress development process">
+                    </div>
                 </div>
+                
+                <div class="col-lg-6">
+                    <div class="ps-lg-4">
+                        <p class="fs-5 mb-4">As certified WordPress specialists, we craft dynamic platforms that combine powerful functionality with seamless user experiences. Leverage our full-stack WordPress capabilities:</p>
+                        
+                        <div class="d-flex gap-3 mb-4">
+                            <i class="bi bi-puzzle-fill text-primary fs-3"></i>
+                            <div>
+                                <h3 class="h5 fw-bold">Plugin Ecosystem</h3>
+                                <p>Integrate 55,000+ plugins for enhanced capabilities</p>
+                            </div>
+                        </div>
 
-                <div class="col-sm-6 mt-3">
-                    <p class="text-start">Developing in WordPress gives you several benefits. First, the massive ecosystem ensures support for multiple third-party tools and plugins that extend the functionality of your website. Secondly, WordPress is easier to manage. You can easily make simple changes without any web development experience. Our experience with SaaS, multisite web solutions, and high-traffic systems have shaped us to be precise and careful about business growth challenges. All our projects are built with growth in mind, and we work closely with our customers for long-term results, building additional features, and enhancing conversion rates by implementing technical, business, and marketing practices.</p>
+                        <div class="d-flex gap-3 mb-4">
+                            <i class="bi bi-shield-check text-success fs-3"></i>
+                            <div>
+                                <h3 class="h5 fw-bold">Enterprise Security</h3>
+                                <p>Multi-layer protection for mission-critical operations</p>
+                            </div>
+                        </div>
+
+                        <a href="Contact" target="_blank">
+                            <button class="btn btn-primary px-4 py-2">Explore Capabilities 
+                                <i class="bi bi-arrow-right ms-2"></i>
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
-        <!-- WordPress Maintenace -->
-        <div class="bg-primary text-light py-5">
+        <!-- WordPress Maintenance -->
+        <section class="bg-dark text-white py-5">
             <div class="container">
-                <p class="text-start p-2">Delegate the maintenance of your site to a team of experienced WordPress talents devoted to keeping your WordPress platform running smoothly. From content updates and customizations to maintaining a great look & feel and the stability of your WordPress solution over time. The ongoing maintenance plans allow us to allocate resources toward monitoring and continuous deployments.</p>
+                <div class="text-center mb-5">
+                    <i class="bi bi-clipboard2-pulse display-4 text-info"></i>
+                    <h2 class="display-5 fw-bold mb-3">Proactive Care Plans</h2>
+                    <p class="text-light opacity-75">24/7 monitoring and expert maintenance for peak performance</p>
+                </div>
 
-                <ol class="list-group list-group-flush list-group-numbered">
-                    <li class="list-group-item mb-3"><span class="text-danger fw-bold">UPDATES -</span> Plugin updates, local setup. General check on the site—partner with us for reliable and secure updates of your platform, plugins, and theme.</li>
-                    <li class="list-group-item mb-3"><span class="text-danger fw-bold">SERVER & UPTIME MONITORING -</span> We will monitor your resources and notify you of unexpected activities, depleting resources, or other anomalies to prevent downtime.</li>
-                    <li class="list-group-item mb-3"><span class="text-danger fw-bold">SECURITY REVIEW -</span> Security log monitoring, code reviews, and additional measures ensure that the security of your system is intact.</li>
-                    <li class="list-group-item mb-3"><span class="text-danger fw-bold">CUSTOM FEATURES -</span> Whenever you need a custom feature, we are here to help. Our WordPress expertise lies in building massive hing-scale platforms.</li>
-                    <li class="list-group-item mb-3"><span class="text-danger fw-bold">LOG MONITORING -</span> A healthy site runs a bulletproof code, in case of broken plugins or scripts, we will monitor the internal logs and rectify the issues to stabilize the system.</li>
-                    <li class="list-group-item mb-3"><span class="text-danger fw-bold">PROJECT MANAGEMENT -</span> Our maintenance plans include project management for better allocation of resources based on your business priorities.</li>
-                </ol>
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="bg-black bg-opacity-25 p-4 rounded-4 h-100">
+                            <i class="bi bi-cloud-arrow-up fs-2 text-danger"></i>
+                            <h3 class="h4 mt-3">Continuous Optimization</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Automated core updates</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Performance audits</li>
+                                <li class="mb-0"><i class="bi bi-check2-circle text-success me-2"></i>Security hardening</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-xl-4">
+                        <div class="bg-black bg-opacity-25 p-4 rounded-4 h-100">
+                            <i class="bi bi-shield-lock fs-2 text-warning"></i>
+                            <h3 class="h4 mt-3">Enterprise Protection</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Malware scanning</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>DDoS mitigation</li>
+                                <li class="mb-0"><i class="bi bi-check2-circle text-success me-2"></i>Backup management</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-xl-4">
+                        <div class="bg-black bg-opacity-25 p-4 rounded-4 h-100">
+                            <i class="bi bi-graph-up fs-2 text-info"></i>
+                            <h3 class="h4 mt-3">Growth Engineering</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Conversion optimization</li>
+                                <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Scalability planning</li>
+                                <li class="mb-0"><i class="bi bi-check2-circle text-success me-2"></i>API integrations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
 
 
-        <!-- WHY CHOOSE WORDPRESS -->
-        <div class="container py-5">
-            <h2 class="text-center fw-bold text-primary mb-3">WHY SHOULD YOU CHOOSE WORDPRESS?</h2>
-            <p>WordPress, which controls more than 50% of the internet market, offers a wide range of website development services. Although it is one of the most sophisticated content management systems, WordPress is also one of the easiest to use, making your development experience enjoyable. You may take use of a plethora of plugins and add-on features that make WordPress website maintenance simple. Our bespoke WordPress Development services may serve as a one-stop shop for all of your development requirements. Hire low-cost WordPress development services for your company's requirements.</p>
-
-            <div class="row d-flex align-items-stretch">
-                <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex flex-column">
-                    <h5 class="fw-bold text-danger">Content Management</h5>
-                    <p>Content management is made simple by various built-in WordPress features, including visual editing, an automatic revision history, preview functionality, and simplified posting. These features make WordPress user-friendly for users of all skill levels. Also supported by WordPress are many users with varying degrees of access.</p>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex flex-column">
-                    <h5 class="fw-bold text-danger">Plugins and Integrations</h5>
-                    <p>WordPress has a thriving developer community, as well as several plugins and third-party tools that make it simple to include a wide variety of functionality and features into your WordPress website. Many of these tools will fit your requirements, while others may need customization for specific uses.</p>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex flex-column">
-                    <h5 class="fw-bold text-danger">Flexible Customizable Designs</h5>
-                    <p>While WordPress websites can use pre-existing theme templates for the design and layout, they can also be highly customized. Jofawebdev specializes in developing custom, responsive, mobile-friendly WordPress strategies that will make your website stand out and deliver results that will facilitate your goals on the web.</p>
+        <!-- WordPress Advantages -->
+        <section class="container py-5">
+            <div class="text-center mb-4">
+                <h2 class="display-5 fw-bold mb-3">Why Enterprises Choose WordPress</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <p class="lead">Powering 43% of the web, WordPress delivers unmatched flexibility for ambitious digital strategies</p>
+                    </div>
                 </div>
             </div>
-            
-        </div>
-        <hr>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="p-4 border rounded-4 h-100">
+                        <i class="bi bi-lightning-charge-fill text-warning fs-1"></i>
+                        <h3 class="h4 mt-3 mb-2">Rapid Deployment</h3>
+                        <p class="text-secondary">Launch MVP solutions in days using our pre-built framework components</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="p-4 border rounded-4 h-100">
+                        <i class="bi bi-currency-dollar text-success fs-1"></i>
+                        <h3 class="h4 mt-3 mb-2">Cost Efficiency</h3>
+                        <p class="text-secondary">Reduce TCO with open-source flexibility and reusable components</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="p-4 border rounded-4 h-100">
+                        <i class="bi bi-globe2 text-primary fs-1"></i>
+                        <h3 class="h4 mt-3 mb-2">Global Ecosystem</h3>
+                        <p class="text-secondary">Access 100,000+ developers worldwide for continuous innovation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         
         
-        <!-- Wordpress services -->
-        <div class="bg-dark text-light py-5">
+        <!-- WordPress Services -->
+        <section class="bg-light py-5">
             <div class="container">
-                <h2 class="text-center fw-bold mb-4">OUR WORDPRESS SERVICES</h2>
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-3">Full-Cycle Development Services</h2>
+                    <p class="text-muted">End-to-end solutions from strategy to scaling</p>
+                </div>
 
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="card service-card border-start border-danger h-100">
-                            <div class="card-body">
-                                <h4 class="text-primary fw-bold">WordPress SEO</h4>
-                                <p>We use best practices and the most recent method to optimize your site for web crawling. We will improve the site's rating using SEO services. We look for relevant keywords, excellent material, website backlinks, etc.</p>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body p-4">
+                                <i class="bi bi-search-heart fs-2 text-danger"></i>
+                                <h3 class="h5 mt-3">Technical SEO</h3>
+                                <p class="text-muted">Architecture optimization for search dominance</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check2 text-primary me-2"></i>Schema markup</li>
+                                    <li class="mb-2"><i class="bi bi-check2 text-primary me-2"></i>Core Web Vitals</li>
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>Indexation strategy</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="card service-card border-start border-success h-100">
-                            <div class="card-body">
-                                <h4 class="text-primary fw-bold">WordPress Support</h4>
-                                <p>Our high-quality WordPress support services are website design customization, plugins, updates, migration, staging, upkeep, and troubleshooting. Our developers have years of expertise managing websites to keep up with developments and provide technical support services.</p>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body p-4">
+                                <i class="bi bi-gear-wide-connected fs-2 text-primary"></i>
+                                <h3 class="h5 mt-3">System Integration</h3>
+                                <p class="text-muted">Unified tech stack orchestration</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check2 text-primary me-2"></i>CRM connectivity</li>
+                                    <li class="mb-2"><i class="bi bi-check2 text-primary me-2"></i>Payment gateways</li>
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>ERP bridges</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="card service-card border-start border-primary h-100">
-                            <div class="card-body">
-                                <h4 class="text-primary fw-bold">WordPress Customization</h4>
-                                <p>WordPress modification is performed on our clients' websites in accordance with their specifications. Our experts integrate third-party plugins and modules into your site appropriately and flawlessly in order to rank your site higher.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card service-card border-start border-pink h-100">
-                            <div class="card-body">
-                                <h4 class="text-primary fw-bold">WordPress Upgradation Service</h4>
-                                <p>For us, a website without security is like life without air. Therefore, we recognize its significance and provide high levels of user-end security on your website, from component updates to the maintenance of themes and databases.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card service-card border-start border-dark h-100">
-                            <div class="card-body">
-                                <h4 class="text-primary fw-bold">WordPress Maintenance & Support</h4>
-                                <p>A WordPress development company like ours knows that only some customers have the time or technical expertise to update and manage their websites and online shops. Hire us for any required maintenance or assistance.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card service-card border-start border-warning h-100">
-                            <div class="card-body">
-                                <h4 class="text-primary fw-bold">WordPress Bug & Error Fixing</h4>
-                                <p>Our team of specialists is available to assist you with any bugs and difficulties connected to your current WordPress website. We will repair and optimize your WordPress website.</p>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body p-4">
+                                <i class="bi bi-graph-up-arrow fs-2 text-success"></i>
+                                <h3 class="h5 mt-3">Revenue Operations</h3>
+                                <p class="text-muted">Conversion-focused engineering</p>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check2 text-primary me-2"></i>Checkout optimization</li>
+                                    <li class="mb-2"><i class="bi bi-check2 text-primary me-2"></i>Personalization engines</li>
+                                    <li><i class="bi bi-check2 text-primary me-2"></i>Analytics integration</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
-        <!-- Sell Using WordPress -->
-        <div class="container py-5">
-            <h2 class="fw-bold mb-3 text-center">SELL USING WORDPRESS <span class="text-danger">- ADD WOOCOMMERCE</span></h2>
-
-            <div class="row">
-                <div class="col-sm-6 mt-3">
-                    <p class="text-start">Woo Commerce plugins may be used to sell nearly anything. With our Woo Commerce services, we can help you sell things by providing numerous extensions and payment gateway choices for your WordPress website. We offer expert WordPress design and development services. We give each online project our undivided attention and create well optimized, SEO-savvy WordPress solutions within the predetermined deadlines. In order to create scalable and safe websites, our WordPress developers adhere to clean and clear code standards.</p>
+        <!-- WooCommerce Section -->
+        <section class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="position-relative">
+                        <img src="images/wordpress-development-1024x355.jpg" class="img-fluid rounded-4 shadow" alt="WooCommerce integration">
+                        <div class="position-absolute bottom-0 start-0 bg-primary text-white p-3 m-3 rounded-3">
+                            <i class="bi bi-cart3 fs-1"></i>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-sm-6 mt-3">
-                    <img class="img-fluid" src="images/wordpress-development-1024x355.jpg" alt="">
+                <div class="col-lg-6 order-lg-1">
+                    <h2 class="display-6 fw-bold mb-4">Commerce-Ready Architecture</h2>
+                    <p class="lead mb-4">Build enterprise marketplaces with our WooCommerce solutions</p>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="p-3 border rounded-3">
+                                <i class="bi bi-currency-exchange text-success fs-4"></i>
+                                <p class="mb-0 mt-2 fw-medium">Multi-currency Support</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 border rounded-3">
+                                <i class="bi bi-globe2 text-info fs-4"></i>
+                                <p class="mb-0 mt-2 fw-medium">Global Tax Compliance</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 border rounded-3">
+                                <i class="bi bi-box-seam text-warning fs-4"></i>
+                                <p class="mb-0 mt-2 fw-medium">Inventory Syncing</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 border rounded-3">
+                                <i class="bi bi-shield-check text-danger fs-4"></i>
+                                <p class="mb-0 mt-2 fw-medium">PCI Compliance</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!-- Begin Footer -->

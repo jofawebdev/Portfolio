@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
@@ -41,7 +42,7 @@
                             <a class="nav-link active text-primary" href="Portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Blog</a>
+                            <a class="nav-link text-white" href="Blog">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="Contact">Contact</a>
@@ -72,69 +73,139 @@
         </header>
 
 
-        <!-- User Research -->
-        <div class="container-fluid py-5 bg-light text-dark">
+        <!-- Success Stories -->
+        <div class="container-fluid py-5 bg-gradient-light text-dark">
             <div class="container">
-                <p class="lead mb-4">Our portfolio showcases real-world cases where we increased a client's internet profile, generated leads, and delivered on other business objectives.</p>
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-3">Transforming Digital Presence</h2>
+                    <p class="lead text-muted">Explore our success stories where we amplified brand visibility and accelerated business growth</p>
+                </div>
 
-                <div class="row g-4">
-                    <!-- Image Column -->
-                    <div class="col-12 col-md-6">
-                        <a href="#" target="_blank">
-                            <img class="img-fluid rounded-3 shadow-sm" src="images/UX-UI-Design.jpg" alt="">
-                        </a>
+                <div class="row g-5 align-items-center">
+                    <!-- Image Section -->
+                    <div class="col-lg-6">
+                        <div class="position-relative rounded-4 overflow-hidden shadow-lg">
+                            <img src="images/UX-UI-Design.jpg" class="img-fluid" alt="Digital transformation process" loading="lazy">
+                            <div class="position-absolute bottom-0 start-0 p-4 bg-dark bg-opacity-75 text-white">
+                                <h3 class="h5 mb-0">From Concept to Conversion</h3>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Content Column -->
-                    <div class="col-12 col-md-6 text-dark">
-                        <p class="lead">Each case study is an in-depth analysis of a project we've finished, focusing on the services provided, the project's objectives, and the outcomes. Our case studies will provide you with a clear understanding of the outcomes you can anticipate from our services, whether you're looking to enhance the design and functionality of your website, raise your search engine rankings, or develop stronger relationships with your audience through email marketing. Read our case studies to learn more about how we've helped organizations like yours and find inspiration for your foray into digital marketing.</p>
-                        </div>
+                    <!-- Strategy Breakdown -->
+                    <div class="col-lg-6">
+                        <div class="d-flex flex-column gap-4">
+                            <div class="d-flex align-items-start gap-3">
+                                <i class="bi bi-bar-chart-line fs-3 text-primary"></i>
+                                <div>
+                                    <h3 class="h5 mb-2">Measurable Results</h3>
+                                    <p class="mb-0">Each case study reveals key performance indicators, demonstrating tangible business impact through digital innovation.</p>
+                                </div>
+                            </div>
 
+                            <div class="d-flex align-items-start gap-3">
+                                <i class="bi bi-lightbulb fs-3 text-warning"></i>
+                                <div>
+                                    <h3 class="h5 mb-2">Strategic Insights</h3>
+                                    <p class="mb-0">Discover how we combine cutting-edge technology with market intelligence to create competitive advantages.</p>
+                                </div>
+                            </div>
+
+                            <a href="Portfolio" class="btn btn-outline-dark btn-lg mt-3 align-self-start">
+                                View Case Studies <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <hr>
 
 
-        <!-- Projects -->
-        <div class="container py-5">
-            <h3 class="text-center fw-bold">WEBSITE DESIGN PROJECTS</h3>
-            <p class="text-center">Below are website design & development works we've done</p>
-            
+        <!-- Portfolio Showcase -->
+        <div class="container py-5" id="projects">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Digital Innovation Portfolio</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <p class="text-muted">Websites engineered for performance, aesthetics, and user engagement</p>
+                        <hr class="mx-auto bg-primary opacity-75" style="width: 100px; height: 2px">
+                    </div>
+                </div>
+            </div>
+
             <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm">
-                        <a href="https://www.sinepowerelectrics.com" target="_blank">
-                            <img src="images/Screenshot (1).png" class="card-img-top" alt="Sinepower Electrics">
-                        </a>
-                        <div class="card-body bg-dark text-white text-center">
-                            <p class="fw-bold mb-0">SINEPOWER ELECTRICS</p>
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-hover">
+                        <div class="position-relative overflow-hidden rounded-top">
+                            <img src="images/Screenshot (1).png" class="card-img-top" alt="Sinepower Electrics Platform" loading="lazy">
+                            <span class="badge bg-dark position-absolute top-0 end-0 m-3">Industrial Solutions</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Sinepower Electrics</h3>
+                            <p class="card-text text-muted small">Enterprise-grade electrical solutions platform</p>
+                            <a href="https://www.sinepowerelectrics.com" target="_blank" class="stretched-link" aria-label="Visit Sinepower Electrics website"></a>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <div class="d-flex gap-2">
+                                <span class="badge rounded-pill bg-light text-dark border">Web Design</span>
+                                <span class="badge rounded-pill bg-light text-dark border">E-Commerce</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm">
-                        <a href="https://www.niacreation.com/" target="_blank">
-                            <img src="images/Screenshot (2).png" class="card-img-top" alt="NIA Creation">
-                        </a>
-                        <div class="card-body bg-dark text-white text-center">
-                            <p class="fw-bold mb-0">NIA CREATION LTD</p>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-hover">
+                        <div class="position-relative overflow-hidden rounded-top">
+                            <img src="images/Screenshot (2).png" class="card-img-top" alt="NIA Creation Platform" loading="lazy">
+                            <span class="badge bg-dark position-absolute top-0 end-0 m-3">Fashion Tech</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h5 card-title">NIA Creation Ltd</h3>
+                            <p class="card-text text-muted small">Boutique fashion e-commerce experience</p>
+                            <a href="https://www.niacreation.com/" target="_blank" class="stretched-link" aria-label="Visit NIA Creation website"></a>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <div class="d-flex gap-2">
+                                <span class="badge rounded-pill bg-light text-dark border">UI/UX</span>
+                                <span class="badge rounded-pill bg-light text-dark border">CMS Integration</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm">
-                        <a href="https://www.nilababyshop.com/" target="_blank">
-                            <img src="images/Screenshot (3).png" class="card-img-top" alt="NILA Baby Shop">
-                        </a>
-                        <div class="card-body bg-dark text-white text-center">
-                            <p class="fw-bold mb-0">NILA BABY SHOP</p>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-hover">
+                        <div class="position-relative overflow-hidden rounded-top">
+                            <img src="images/Screenshot (3).png" class="card-img-top" alt="NILA Baby Shop Platform" loading="lazy">
+                            <span class="badge bg-dark position-absolute top-0 end-0 m-3">Parenting Tech</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Nila Baby Shop</h3>
+                            <p class="card-text text-muted small">Next-gen parenting retail ecosystem</p>
+                            <a href="https://www.nilababyshop.com/" target="_blank" class="stretched-link" aria-label="Visit NILA Baby Shop website"></a>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <div class="d-flex gap-2">
+                                <span class="badge rounded-pill bg-light text-dark border">Mobile First</span>
+                                <span class="badge rounded-pill bg-light text-dark border">SEO Optimized</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="text-center mt-5">
+                <a href="Contact" class="btn btn-primary px-4 py-2">
+                    Start Your Project <i class="bi bi-lightning-charge"></i>
+                </a>
+            </div>
         </div>
+        <hr>
 
 
         <!-- Begin Pagination -->
@@ -145,7 +216,7 @@
                 <li class="page-item"><a class="page-link" href="About">2</a></li>
                 <li class="page-item"><a class="page-link" href="Services">3</a></li>
                 <li class="page-item active"><a class="page-link" href="Portfolio">4</a></li>
-                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="Blog">5</a></li>
                 <li class="page-item"><a class="page-link" href="Contact">6</a></li>
                 <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
             </ul>

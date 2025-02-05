@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
@@ -74,43 +75,82 @@
 
         <!-- Contact Section -->
         <section class="container py-5">
-            <div class="text-center mb-3">
-                <h2 class="display-5 fw-bold mb-4">
-                    <span class="text-primary">GET IN</span> TOUCH
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-3">
+                    <span class="text-primary">Let's Create</span> 
+                    <span class="text-gradient bg-gradient-to-r from-primary to-info">Something Amazing</span>
                 </h2>
+                <p class="text-muted">Digital Solutions for Visionary Businesses</p>
             </div>
 
-            <div class="row g-4">
-                <div class="col-md-6 mt-3">
-                    <div class="pe-lg-4">
-                        <p class="lead mb-4">Because every business is unique, we provide specialized website development and digital marketing services to meet your requirements. Identifying new ideas and better solutions to business problems excites and drives us.</p>
-                        <p class="mb-4">Whether you need website design & development, website redesign, brand marketing, digital marketing, or business marketing services, we'd love to hear from you.</p>
-                        <p class="mb-0">We love working with businesses who are forward-thinkers and desire to stretch the bounds of mediocrity. If that's you, let's talk about how together we can elevate your business through innovation and creativity.</p>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="pe-xl-5">
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="bg-primary text-white rounded-circle p-3 me-3">
+                                <i class="bi bi-lightbulb fs-3"></i>
+                            </div>
+                            <div>
+                                <h4 class="mb-3">Tailored Digital Solutions</h4>
+                                <p class="text-muted">We specialize in custom web development and targeted digital strategies that grow with your business. Our passion? Transforming complex challenges into elegant solutions.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="bg-info text-white rounded-circle p-3 me-3">
+                                <i class="bi bi-bar-chart-line fs-3"></i>
+                            </div>
+                            <div>
+                                <h4 class="mb-3">Full-Spectrum Services</h4>
+                                <ul class="list-unstyled text-muted">
+                                    <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Web Design & Development</li>
+                                    <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Digital Brand Strategy</li>
+                                    <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Conversion Optimization</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
+                <div class="col-lg-6">
+                    <div class="contact-form bg-white p-4 p-lg-5 shadow-lg rounded-4">
+                        <h3 class="mb-4">
+                            <span class="text-primary">Start Your</span> 
+                            <span class="text-danger">Project</span>
+                            <i class="bi bi-chat-dots ms-2 text-primary"></i>
+                        </h3>
 
-                <div class="col-md-6 mt-3">
-                    <div class="contact-form bg-light p-4 rounded-3">
-                        <h3 class="text-danger fw-bold mb-4">Questions? Go Ahead</h3>
+                        <form class="needs-validation" novalidate>
+                            <div class="mb-3 form-floating">
+                                <input type="text" class="form-control border-0 border-bottom rounded-0" id="name" placeholder=" " required>
+                                <label for="name" class="form-label">Your Name</label>
+                            </div>
+                            
+                            <div class="mb-3 form-floating">
+                                <input type="email" class="form-control border-0 border-bottom rounded-0" id="email" placeholder=" " required>
+                                <label for="email" class="form-label">Business Email</label>
+                            </div>
+                            
+                            <div class="mb-4 form-floating">
+                                <textarea class="form-control border-0 border-bottom rounded-0" id="message" style="height: 120px" placeholder=" " required></textarea>
+                                <label for="message" class="form-label">Project Details</label>
+                            </div>
 
-                        <form action="" method="post">
-                            <div class="mb-3">
-                                <input type="text" class="form-control form-control-lg" name="name" placeholder="Name" required>
-                            </div>
-                            <div class="mb-3">
-                                <input type="email" class="form-control form-control-lg" name="email" placeholder="Email" required>
-                            </div>
-                            <div class="mb-4">
-                                <textarea class="form-control form-control-lg" name="message" placeholder="Message" rows="4" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-lg w-100" name="submit">Send Message</button>
+                            <button type="submit" class="btn btn-primary btn-lg w-100 py-3">
+                                Launch Project
+                                <i class="bi bi-send-arrow-up ms-2"></i>
+                            </button>
+                            
+                            <p class="text-muted small mt-3">
+                                <i class="bi bi-lock me-2"></i>
+                                We respect your privacy. No spam, ever.
+                            </p>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
-        <hr>
+        <hr class="my-0">
 
 
         <!-- Begin Pagination -->
