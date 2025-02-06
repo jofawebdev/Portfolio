@@ -13,7 +13,7 @@
     
     <body>
         <!-- Begin Top navbar -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="index"><b>Jofawebdev</b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -28,9 +28,9 @@
                             <a class="nav-link text-white" href="About">About</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="custom website development.php">Web Design & Development</a></li>
+                                <li><a class="dropdown-item" href="custom website development">Web Design & Development</a></li>
                                 <li><a class="dropdown-item" href="ecommerce development">E-commerce Development</a></li>
                                 <li><a class="dropdown-item" href="digital marketing">Digital Marketing</a></li>
                                 <li><a class="dropdown-item" href="search engine optimization">Search Engine Optimization</a></li>
@@ -48,10 +48,24 @@
                             <a class="nav-link text-white" href="Contact">Contact</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="text" placeholder="Search">
-                        <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
-                    </form>
+                    
+                    <!-- New Right-aligned elements -->
+                    <div class="d-flex align-items-center gap-3 ms-md-3">
+                        <!-- Social Icons -->
+                        <div class="d-flex gap-3">
+                            <a href="https://www.github.com/jofawebdev/" class="text-white text-decoration-none" target="_blank">
+                                <i class="fab fa-github fa-lg"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/geoffrey-mbungi-86a6411ba/" class="text-white text-decoration-none" target="_blank">
+                                <i class="fab fa-linkedin fa-lg"></i>
+                            </a>
+                        </div>
+                        
+                        <!-- CTA Button -->
+                        <a href="Contact" class="btn btn-primary btn-sm rounded-pill px-3">
+                            Get Started <i class="fas fa-arrow-right ms-1"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -460,67 +474,137 @@
 
     
         <!-- Begin Footer -->
-        <footer class="container-fluid bg-dark text-white py-4 my-2">
-            <div class="container my-4">
-                <div class="row">
+        <footer class="container-fluid bg-dark text-white py-5">
+            <div class="container">
+                <div class="row g-4">
 
                     <!-- Footer Social -->
-                    <div class="col-sm p-3">
-                        <h6 class="text-primary"><b>FOLLOW US</b></h6>
-                        <p>You Can Follow Us On:</p>
-                        <a href="https://www.github.com/jofawebdev/" target="_blank"><i class="fab fa-github-alt text-white fa-xl me-1"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-instagram text-white fa-xl me-1"></i></a>
-                        <a href="https://www.pinterest.com/jofawebdev" target="_blank"><i class="fab fa-pinterest text-white fa-xl me-1"></i></a>
-                        <a href="https://www.linkedin.com/in/geoffrey-mbungi-86a6411ba/" target="_blank"><i class="fab fa-linkedin text-white fa-xl me-1"></i></a>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="h-100 p-3">
+                            <h5 class="text-primary mb-4">FOLLOW US</h5>
+                            <p class="text-secondary">Connect with us on social media:</p>
+                            <div class="d-flex gap-3">
+                                <a href="https://www.github.com/jofawebdev/" target="_blank" class="text-decoration-none" aria-label="GitHub">
+                                    <i class="bi bi-github text-white fs-3"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/geoffrey-mbungi-86a6411ba/" target="_blank" class="text-decoration-none" aria-label="LinkedIn">
+                                    <i class="bi bi-linkedin text-white fs-3"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Footer Contact -->
-                    <div class="col-sm p-3">
-                        <h6 class="text-primary"><b>GET IN TOUCH</b></h6>
-                        <p><a href="Contact" target="_blank" class="text-decoration-none text-white"><i class="fas fa-headset fa-lg me-1"></i> QUESTIONS</a></p>
-                        <p><i class="fas fa-envelope fa-lg me-1"></i>info@jofawebdev.co.ke</p>
-                        <p><i class="fas fa-phone-square-alt fa-lg me-1"></i>+254-793-004-632</p>
-                        <p><a href="#" target="_blank" class="text-decoration-none text-white"><i class="fas fa-map-marked-alt fa-lg me-1"></i> Utawala, NAIROBI</a></p>
-                        <p><i class="fas fa-business-time fa-lg me-1"></i>Monday - Saturday</p>
-                    </div>
-                    
-                    <!-- Footer Quick Links -->
-                    <div class="col-sm p-3">
-                        <h6 class="text-primary"><b>QUICK LINKS</b></h6>
-                        <p><a href="index" class="text-decoration-none text-white">Home</a></p>
-                        <p><a href="About" class="text-decoration-none text-white">About Us</a></p>
-                        <p><a href="Services" class="text-decoration-none text-white">Services</a></p>
-                        <p><a href="Portfolio" class="text-decoration-none text-white">Portfolio</a></p>
-                        <p><a href="Contact" class="text-decoration-none text-white">Contact</a></p>
-                        <p><a href="Blog" class="text-decoration-none text-white">Blog</a></p>
-                    </div>
-                    
-                    <!-- Footer Services -->
-                    <div class="col-sm p-3">
-                        <h6 class="text-primary"><b>OUR SERVICES</b></h6>
-                        <p><a href="custom website development" class="text-decoration-none text-white">Web Design & Development</a></p>
-                        <p><a href="ecommerce development" class="text-decoration-none text-white">E-commerce Website Development</a></p>
-                        <p><a href="digital marketing" class="text-decoration-none text-white">Digital Marketing</a></p>
-                        <p><a href="search engine optimization" class="text-decoration-none text-white">Search Engine Optimization</a></p>
-                        <p><a href="wordpress development" class="text-decoration-none text-white">WordPress Development</a></p>
-                        <p><a href="ui & ux design" class="text-decoration-none text-white">UI & UX Design</a></p>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="h-100 p-3">
+                            <h5 class="text-primary mb-4">CONTACT</h5>
+                            <ul class="list-unstyled text-secondary">
+                                <li class="mb-3">
+                                    <a href="Contact" class="text-white text-decoration-none">
+                                        <i class="bi bi-headset me-2"></i>Support Questions
+                                    </a>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-envelope me-2"></i>info@jofawebdev.co.ke
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-telephone me-2"></i>+254-793-004-632
+                                </li>
+                                <li class="mb-3">
+                                    <a href="#" class="text-white text-decoration-none">
+                                        <i class="bi bi-geo-alt me-2"></i>Utawala, Nairobi
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="bi bi-clock me-2"></i>Mon-Sat: 8:00 AM - 6:00 PM
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
+                    <!-- Quick Links -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="h-100 p-3">
+                            <h5 class="text-primary mb-4">QUICK LINKS</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="index" class="text-decoration-none text-white">Home</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="About" class="text-decoration-none text-white">About Us</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="Services" class="text-decoration-none text-white">Services</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="Portfolio" class="text-decoration-none text-white">Portfolio</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="Contact" class="text-decoration-none text-white">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="Blog" class="text-decoration-none text-white">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="h-100 p-3">
+                            <h5 class="text-primary mb-4">SERVICES</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="custom website development" class="text-decoration-none text-white">
+                                        Web Design & Development
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="ecommerce development" class="text-decoration-none text-white">
+                                        E-commerce Solutions
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="digital marketing" class="text-decoration-none text-white">
+                                        Digital Marketing
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="search engine optimization" class="text-decoration-none text-white">
+                                        SEO Services
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="wordpress development" class="text-decoration-none text-white">
+                                        WordPress Development
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="ui & ux design" class="text-decoration-none text-white">
+                                        UI/UX Design
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-
             </div>
 
-            <!-- Scroll to Top Button -->
-            <div class="d-flex justify-content-center align-items-center">
-                <button id="scrollToTop" class="btn btn-primary">Scroll to Top</button>
+            <!-- Copyright & Scroll Top -->
+            <div class="border-top border-secondary mt-2">
+                <div class="container py-4">
+                    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                        <div class="text-secondary mb-3 mb-md-0">
+                            © 2019 - 2025 Jofawebdev. All Rights Reserved.
+                        </div>
+                        <button id="scrollToTop" class="btn btn-primary rounded-circle p-2" 
+                                title="Back to top" aria-label="Scroll to top">
+                            <i class="bi bi-arrow-up-circle-fill fs-4"></i>
+                        </button>
+                    </div>
+                </div>
             </div>
         </footer>
-
-
-        <!-- Copyright Section -->
-        <div class="container-fluid text-center p-2">
-            Copyright &copy; 2019 - 2025 Jofawebdev. All Rights Reserved.
-        </div>
 
         <!-- Scroll To Top Script -->
         <script>
