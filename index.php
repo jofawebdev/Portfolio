@@ -260,92 +260,122 @@
         <!-- End Third Section -->
 
 
-        <!-- Begin Services Section -->
-        <div class="container py-5 text-center">
-            <h2 class="fw-bold display-5 text-danger">OUR <span class="text-primary">SERVICES</span></h2>
-            <h4>We Handle All Aspects of Web Development & Digital Marketing</h4>
-            
-            <!-- Begin First Row -->
-            <div class="row d-flex align-items-stretch">
-                <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex">
-                    <div class="card flex-fill">
-                        <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-bold">Custom Website Development</h5>
-                            <p class="card-text text-start">Our expertise as web specialists centers on crafting bespoke digital solutions that align with your unique business objectives. We build websites that drive engagement, trust, and measurable results by merging industry-leading coding practices with brand-centric design. Beyond custom builds, our optimization services refine existing platforms through performance audits, UX/UI redesigns, and streamlined user journeys—turning stagnant websites into dynamic tools for growth.</p>
-                            <a href="custom website development" class="btn btn-danger rounded-pill mt-auto">Read More <i class="far fa-arrow-alt-circle-right text-white"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex">
-                    <div class="card flex-fill">
-                        <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-bold">E-commerce Website Development</h5>
-                            <p class="card-text text-start">As Kenya-based eCommerce web development specialists, our team crafts custom-built online stores that transcend geographical boundaries and amplify your digital reach. Our full-service solutions blend cutting-edge design with technical excellence, creating mobile-responsive, SEO-optimized platforms prioritizing affordability and seamless user experiences.</p>
-                            <a href="ecommerce development" class="btn btn-danger rounded-pill mt-auto">Read More <i class="far fa-arrow-alt-circle-right text-white"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex">
-                    <div class="card flex-fill">
-                        <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title"><b>Digital Growth | Marketing Services</b></h5>
-                            <p class="card-text text-start">As web specialists, we leverage data-driven strategies and innovative digital solutions to keep your business ahead in today's competitive online landscape. Our mission is to accelerate your digital growth and unlock the full potential of your online presence. Through our expertise, we enhance brand visibility, boost conversion rates, generate qualified leads, and maximize search engine rankings — all while delivering measurable ROI.</p>
-                            <a href="digital marketing" class="btn btn-danger rounded-pill mt-auto">Read More <i class="far fa-arrow-alt-circle-right text-white"></i></a>
-                        </div>
-                    </div>
-                </div>
-
+        <!-- Services Section -->
+        <section class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-3">
+                    <span class="text-danger">Digital Excellence</span> 
+                    <span class="text-primary">Made Simple</span>
+                </h2>
+                <p class="lead text-muted">Full-spectrum digital solutions transforming brands in the modern marketplace</p>
             </div>
-            <!-- End First Row -->
 
-            <!-- Begin Second Row -->
-            <div class="row d-flex align-items-stretch">
-                <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex">
-                    <div class="card flex-fill">
-                        <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title"><b>Search Engine Optimization</b></h5>
-                            <p class="card-text text-start">As your trusted web specialists, we empower businesses to dominate search rankings and drive sustainable organic growth. Our search engine optimization services are designed to maximize online visibility and amplify qualified traffic through proven data-driven strategies. We refine website architecture for eCommerce brands, optimize product listings, and craft conversion-focused descriptions that align with user intent.</p>
-                            <a href="search engine optimization" class="btn btn-danger rounded-pill mt-auto">Read More <i class="far fa-arrow-alt-circle-right text-white"></i></a>
+            <!-- Services Grid -->
+            <div class="row g-4">
+                <!-- Web Development -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow">
+                        <div class="card-header bg-transparent border-0 text-center pt-4">
+                            <i class="bi bi-code-square display-5 text-danger"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h4 fw-bold mb-3">Custom Web Solutions</h3>
+                            <p class="text-secondary">Transform your digital presence with pixel-perfect websites built on modern stacks. We specialize in React and Node.js development, creating scalable solutions with CI/CD integration and cloud-ready architectures.</p>
+                            <a href="custom website development" class="btn btn-danger stretched-link" aria-label="Custom development details">
+                                Explore Capabilities
+                                <i class="bi bi-chevron-double-right ms-2"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
 
-
-                <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex">
-                    <div class="card flex-fill">
-                        <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title"><b>WordPress Development</b></h5>
-                            <p class="card-text text-start">We offer extensive WordPress services such as design, WooCommerce solutions, maintenance/support, optimization, security, integration, mobile-friendly layouts, speed, SEO, content management, and migrations. Our expertise lies in e-Commerce development, emphasizing WordPress's security, flexibility, and plugin functionality.</p>
-                            <a href="wordpress development" class="btn btn-danger rounded-pill mt-auto">Read More <i class="far fa-arrow-alt-circle-right text-white"></i></a>
+                <!-- E-Commerce -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow">
+                        <div class="card-header bg-transparent border-0 text-center pt-4">
+                            <i class="bi bi-cart-check display-5 text-primary"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h4 fw-bold mb-3">E-Commerce Evolution</h3>
+                            <p class="text-secondary">Convert browsers into buyers with Shopify and WooCommerce solutions featuring AI-powered recommendations, 1-click upsells, and multi-channel inventory sync. Includes PCI compliance and payment gateway integration.</p>
+                            <a href="ecommerce development" class="btn btn-primary stretched-link" aria-label="E-commerce solutions">
+                                Boost Conversions
+                                <i class="bi bi-lightning-charge ms-2"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
 
-
-                <div class="col-sm-12 col-md-6 col-lg-4 p-3 d-flex">
-                    <div class="card flex-fill">
-                        <img class="card-img-top img-fluid" src="images/web-design-development-blog.jpg" alt="">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title"><b>UI & UX Design</b></h5>
-                            <p class="card-text text-start">Boost user engagement with our top-tier UX/UI design. If your website or app frustrates users or hinders retention, our specialized UX researchers and expert designers can help. Through consultation and market research, we tailor solutions aligned with your business objectives, optimizing every element for a seamless user experience.</p>
-                            <a href="ui & ux design" class="btn btn-danger rounded-pill mt-auto">Read More <i class="far fa-arrow-alt-circle-right text-white"></i></a>
+                <!-- Digital Marketing -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow">
+                        <div class="card-header bg-transparent border-0 text-center pt-4">
+                            <i class="bi bi-bar-chart-line display-5 text-warning"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h4 fw-bold mb-3">Growth Marketing</h3>
+                            <p class="text-secondary">Data-driven campaigns leveraging GA4 analytics and machine learning. Our full-funnel strategies encompass programmatic ads, conversion rate optimization, and hyper-personalized retargeting.</p>
+                            <a href="digital marketing" class="btn btn-warning stretched-link" aria-label="Marketing strategies">
+                                Accelerate Growth
+                                <i class="bi bi-rocket-takeoff ms-2"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Additional Cards Maintain Similar Structure -->
+                <!-- SEO -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow">
+                        <div class="card-header bg-transparent border-0 text-center pt-4">
+                            <i class="bi bi-search-heart display-5 text-success"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h4 fw-bold mb-3">Search Intelligence</h3>
+                            <p class="text-secondary">Dominate SERPs with our semantic SEO framework combining technical audits, content clusters, and entity optimization. Includes featured snippet strategies and local search domination.</p>
+                            <a href="search engine optimization" class="btn btn-success stretched-link" aria-label="SEO services">
+                                Claim Visibility
+                                <i class="bi bi-trophy ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WordPress -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow">
+                        <div class="card-header bg-transparent border-0 text-center pt-4">
+                            <i class="bi bi-wordpress display-5 text-info"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h4 fw-bold mb-3">WordPress Excellence</h3>
+                            <p class="text-secondary">Enterprise-grade WordPress solutions with headless configurations, custom plugin development, and WP Engine optimization. Includes multisite management and VIP compliance.</p>
+                            <a href="wordpress development" class="btn btn-info stretched-link" aria-label="WordPress expertise">
+                                Empower CMS
+                                <i class="bi bi-gear-wide-connected ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UX Design -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow">
+                        <div class="card-header bg-transparent border-0 text-center pt-4">
+                            <i class="bi bi-magic display-5 text-purple"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h4 fw-bold mb-3">Experience Design</h3>
+                            <p class="text-secondary">User-centric interfaces powered by Figma prototypes and usability testing. We implement micro-interactions, accessibility compliance, and cognitive load optimization.</p>
+                            <a href="ui & ux design" class="btn btn-dark stretched-link" aria-label="UX design services">
+                                Craft Experiences
+                                <i class="bi bi-hand-index-thumb ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- End Second Row -->
-        </div>
-        <!-- End Services -->
+        </section>
 
         
         <!-- Case Study -->
@@ -546,7 +576,7 @@
                     <!-- Footer Contact -->
                     <div class="col-sm p-3">
                         <h6 class="text-primary"><b>GET IN TOUCH</b></h6>
-                        <p><a href="#" target="_blank" class="text-decoration-none text-white"><i class="fas fa-headset fa-lg me-1"></i> QUESTIONS</a></p>
+                        <p><a href="Contact" target="_blank" class="text-decoration-none text-white"><i class="fas fa-headset fa-lg me-1"></i> QUESTIONS</a></p>
                         <p><i class="fas fa-envelope fa-lg me-1"></i>info@jofawebdev.co.ke</p>
                         <p><i class="fas fa-phone-square-alt fa-lg me-1"></i>+254-793-004-632</p>
                         <p><a href="#" target="_blank" class="text-decoration-none text-white"><i class="fas fa-map-marked-alt fa-lg me-1"></i> Utawala, NAIROBI</a></p>

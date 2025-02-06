@@ -99,7 +99,7 @@
                             </div>
                             <h3 class="h5 fw-bold mb-3">Custom Website Development</h3>
                             <p class="text-secondary">We build performance-driven websites that combine stunning aesthetics with conversion-optimized functionality. Our full-stack development approach ensures seamless user journeys, light-speed loading, and future-ready scalability.</p>
-                            <a href="Web Design & Development" class="btn btn-danger rounded-pill px-4 mt-2">Explore Solutions <i class="bi bi-arrow-right ms-2"></i></a>
+                            <a href="custom website development" class="btn btn-danger rounded-pill px-4 mt-2">Explore Solutions <i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                             </div>
                             <h3 class="h5 fw-bold mb-3">E-commerce Development</h3>
                             <p class="text-secondary">Convert browsers into buyers with intelligent storefronts featuring AI-powered recommendations, one-click checkout, and multi-channel integration. Our platforms average 35% higher conversion rates than industry standards.</p>
-                            <a href="E-commerce Website Development" class="btn btn-danger rounded-pill px-4 mt-2">Boost Sales <i class="bi bi-arrow-right ms-2"></i></a>
+                            <a href="ecommerce development" class="btn btn-danger rounded-pill px-4 mt-2">Boost Sales <i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                             </div>
                             <h3 class="h5 fw-bold mb-3">Digital Growth Marketing</h3>
                             <p class="text-secondary">Our ROI-focused strategies combine SEO precision with social media mastery and conversion rate optimization. We've generated over $50M in client revenue through targeted digital campaigns.</p>
-                            <a href="Digital Marketing" class="btn btn-danger rounded-pill px-4 mt-2">Grow Traffic <i class="bi bi-arrow-right ms-2"></i></a>
+                            <a href="digital marketing" class="btn btn-danger rounded-pill px-4 mt-2">Grow Traffic <i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
                             </div>
                             <h3 class="h5 fw-bold mb-3">Search Engine Optimization</h3>
                             <p class="text-secondary">Dominate search rankings with our technical SEO audits and content strategies that boost organic traffic by 200%+ on average. Our holistic approach targets both local visibility and national market penetration.</p>
-                            <a href="Search Engine Optimization" class="btn btn-danger rounded-pill px-4 mt-2">Rank Higher <i class="bi bi-arrow-right ms-2"></i></a>
+                            <a href="search engine optimization" class="btn btn-danger rounded-pill px-4 mt-2">Rank Higher <i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                             </div>
                             <h3 class="h5 fw-bold mb-3">WordPress Development</h3>
                             <p class="text-secondary">Leverage the world's most popular CMS with enterprise-grade security and custom functionality. Our optimized WordPress solutions load 60% faster than typical implementations while maintaining complete design flexibility.</p>
-                            <a href="WordPress Development" class="btn btn-danger rounded-pill px-4 mt-2">Customize CMS <i class="bi bi-arrow-right ms-2"></i></a>
+                            <a href="wordPress development" class="btn btn-danger rounded-pill px-4 mt-2">Customize CMS <i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
                             </div>
                             <h3 class="h5 fw-bold mb-3">UI/UX Design</h3>
                             <p class="text-secondary">Through user testing and behavioral analysis, we create interfaces that increase engagement by 45% on average. Our human-centered designs remove friction while strengthening brand identity across all touchpoints.</p>
-                            <a href="UI & UX Design" class="btn btn-danger rounded-pill px-4 mt-2">Enhance UX <i class="bi bi-arrow-right ms-2"></i></a>
+                            <a href="ui & ux design" class="btn btn-danger rounded-pill px-4 mt-2">Enhance UX <i class="bi bi-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -212,7 +212,7 @@
                     <!-- Footer Contact -->
                     <div class="col-sm p-3">
                         <h6 class="text-primary"><b>GET IN TOUCH</b></h6>
-                        <p><a href="#" target="_blank" class="text-decoration-none text-white"><i class="fas fa-headset fa-lg me-1"></i> QUESTIONS</a></p>
+                        <p><a href="Contact" target="_blank" class="text-decoration-none text-white"><i class="fas fa-headset fa-lg me-1"></i> QUESTIONS</a></p>
                         <p><i class="fas fa-envelope fa-lg me-1"></i>info@jofawebdev.co.ke</p>
                         <p><i class="fas fa-phone-square-alt fa-lg me-1"></i>+254-793-004-632</p>
                         <p><a href="#" target="_blank" class="text-decoration-none text-white"><i class="fas fa-map-marked-alt fa-lg me-1"></i> Utawala, NAIROBI</a></p>

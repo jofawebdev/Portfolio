@@ -187,7 +187,7 @@
                     <!-- Footer Contact -->
                     <div class="col-sm p-3">
                         <h6 class="text-primary"><b>GET IN TOUCH</b></h6>
-                        <p><a href="#" target="_blank" class="text-decoration-none text-white"><i class="fas fa-headset fa-lg me-1"></i> QUESTIONS</a></p>
+                        <p><a href="Contact" target="_blank" class="text-decoration-none text-white"><i class="fas fa-headset fa-lg me-1"></i> QUESTIONS</a></p>
                         <p><i class="fas fa-envelope fa-lg me-1"></i>info@jofawebdev.co.ke</p>
                         <p><i class="fas fa-phone-square-alt fa-lg me-1"></i>+254-793-004-632</p>
                         <p><a href="#" target="_blank" class="text-decoration-none text-white"><i class="fas fa-map-marked-alt fa-lg me-1"></i> Utawala, NAIROBI</a></p>
