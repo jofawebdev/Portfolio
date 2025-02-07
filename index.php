@@ -147,7 +147,7 @@
                     </div>
 
                     <div class="d-flex gap-3">
-                        <a href="About" class="btn btn-danger btn-lg px-5 py-3 rounded-1 fw-bold hover-effect">
+                        <a href="Services" class="btn btn-danger btn-lg px-5 py-3 rounded-1 fw-bold hover-effect">
                             Explore Our Solutions
                             <i class="bi bi-arrow-right-circle ms-2"></i>
                         </a>
@@ -525,16 +525,18 @@
                             <div class="bg-light rounded-4 p-4 border border-2 border-primary-subtle">
                                 <p class="fs-5 text-muted mb-0">
                                     Reach us via phone or chat at
-                                    <span class="d-inline-block d-sm-inline bg-primary text-white px-3 py-2 rounded-pill ms-2 w-100 text-wrap" style="word-break: break-word; max-width: 100%;">
+                                    <a href="callto:+254-793-004-632" 
+                                    class="d-inline-block d-sm-inline bg-primary text-white text-decoration-none px-3 py-2 rounded-pill ms-2 w-100 text-wrap" 
+                                    style="word-break: break-word; max-width: 100%;">
                                         <i class="bi bi-telephone me-2"></i>+254 793-004-632
-                                    </span>
+                                    </a>
                                 </p>
                             </div>
 
                             <div class="bg-light rounded-4 p-4 border border-2 border-primary-subtle">
                                 <p class="fs-5 text-muted mb-0">
                                     Email us at
-                                    <a href="mailto:info@jofawebdev.com" 
+                                    <a href="mailto:info@jofawebdev.co.ke" 
                                     class="d-inline-block d-sm-inline bg-dark text-white px-3 py-2 rounded-pill ms-2 text-decoration-none w-100 text-wrap" 
                                     style="word-break: break-word; max-width: 100%;">
                                         <i class="bi bi-envelope me-2"></i>info@jofawebdev.co.ke
@@ -604,14 +606,19 @@
                                     </a>
                                 </li>
                                 <li class="mb-3">
-                                    <i class="bi bi-envelope me-2"></i>info@jofawebdev.co.ke
+                                    <a href="mailto:info@jofawebdev.co.ke" class="text-white text-decoration-none">
+                                        <i class="bi bi-envelope me-2"></i>
+                                        info@jofawebdev.co.ke
+                                    </a>
                                 </li>
                                 <li class="mb-3">
-                                    <i class="bi bi-telephone me-2"></i>+254-793-004-632
+                                    <a href="callto:+254 793-004-632" class="text-white text-decoration-none">
+                                        <i class="bi bi-telephone me-2"></i>+254-793-004-632
+                                    </a>
                                 </li>
                                 <li class="mb-3">
-                                    <a href="#" class="text-white text-decoration-none">
-                                        <i class="bi bi-geo-alt me-2"></i>Utawala, Nairobi
+                                    <a href="https://www.google.com/maps/dir//Utawala+Cres+Ct,+Nairobi/@-1.294693,36.8860262,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x182f3fa4bc27ee03:0x34a3cbb7fb101b39!2m2!1d36.9577074!2d-1.284496?entry=ttu&g_ep=EgoyMDI1MDIwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="text-white text-decoration-none">
+                                        <i class="bi bi-geo-alt me-2"></i>Nairobi, KENYA
                                     </a>
                                 </li>
                                 <li>

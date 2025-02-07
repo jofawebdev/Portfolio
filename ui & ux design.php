@@ -505,14 +505,18 @@
                                     </a>
                                 </li>
                                 <li class="mb-3">
-                                    <i class="bi bi-envelope me-2"></i>info@jofawebdev.co.ke
+                                    <a href="mailto:info@jofawebdev.co.ke" class="text-white text-decoration-none">
+                                        <i class="bi bi-envelope me-2"></i>info@jofawebdev.co.ke
+                                    </a>
                                 </li>
                                 <li class="mb-3">
-                                    <i class="bi bi-telephone me-2"></i>+254-793-004-632
+                                    <a href="callto:+254-793-004-632" class="text-white text-decoration-none">
+                                        <i class="bi bi-telephone me-2"></i>+254-793-004-632
+                                    </a>
                                 </li>
                                 <li class="mb-3">
-                                    <a href="#" class="text-white text-decoration-none">
-                                        <i class="bi bi-geo-alt me-2"></i>Utawala, Nairobi
+                                    <a href="https://www.google.com/maps/dir//Utawala+Cres+Ct,+Nairobi/@-1.294693,36.8860262,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x182f3fa4bc27ee03:0x34a3cbb7fb101b39!2m2!1d36.9577074!2d-1.284496?entry=ttu&g_ep=EgoyMDI1MDIwNC4wIKXMDSoASAFQAw%3D%3D" class="text-white text-decoration-none">
+                                        <i class="bi bi-geo-alt me-2"></i>Nairobi, KENYA
                                     </a>
                                 </li>
                                 <li>

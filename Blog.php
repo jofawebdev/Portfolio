@@ -207,14 +207,18 @@
                                     </a>
                                 </li>
                                 <li class="mb-3">
-                                    <i class="bi bi-envelope me-2"></i>info@jofawebdev.co.ke
+                                    <a href="mailto:info@jofawebdev.co.ke" class="text-white text-decoration-none">
+                                        <i class="bi bi-envelope me-2"></i>info@jofawebdev.co.ke
+                                    </a>
                                 </li>
                                 <li class="mb-3">
-                                    <i class="bi bi-telephone me-2"></i>+254-793-004-632
+                                    <a href="callto:+254-793-004-632" class="text-white text-decoration-none">
+                                        <i class="bi bi-telephone me-2"></i>+254-793-004-632
+                                    </a>
                                 </li>
                                 <li class="mb-3">
-                                    <a href="#" class="text-white text-decoration-none">
-                                        <i class="bi bi-geo-alt me-2"></i>Utawala, Nairobi
+                                    <a href="" class="text-white text-decoration-none">
+                                        <i class="bi bi-geo-alt me-2"></i>Nairobi, KENYA
                                     </a>
                                 </li>
                                 <li>
