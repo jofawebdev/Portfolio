@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Jofawebdev - Website Development | IT Consulting | Digital Marketing</title>
+        <title>Services - Website Development | SEO | Digital Marketing</title>
+
+        <!-- Open Graph Meta Tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/jpg" href="https://jofawebdev.co.ke/images/logo.jpg">
+
+        <!-- Essential OG Tags -->
+        <meta property="og:title" content="Conversion-Driven Web Development & Optimization Services">
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Transform your online presence with tailored web development, SEO, and digital marketing solutions for measurable business growth.">
+        <meta property="og:url" content="https://jofawebdev.co.ke/">
+        <meta property="og:image" content="https://jofawebdev.co.ke/images/logo.jpg">
+        <meta property="og:image:secure_url" content="https://jofawebdev.co.ke/images/logo.jpg">
+        <meta property="og:site_name" content="Jofawebdev">
+
+        <!-- Optional but Recommended -->
+        <meta property="og:locale" content="en_US">
+
         <link rel="stylesheet" type="text/css" href="css/Services.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
