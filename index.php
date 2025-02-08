@@ -88,36 +88,36 @@
         <!-- End Navigation Bar-->
         
         <!-- Begin Top Carousel -->
-        <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-            <!-- Indicators/dots -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="false" aria-roledescription="carousel" aria-label="Featured content">
+            
+            <!-- Indicators -->
+            <div class="carousel-indicators" role="tablist">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
 
-            <!-- The slideshow/carousel -->
-            <div class="carousel-inner">
+            <!-- Slides -->
+            <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img src="images/web-development.jpg" alt="Dev" class="d-block w-100" style="width: 100%;">
+                    <img src="images/web-development.jpg" alt="Web development services" class="d-block w-100" loading="eager" decoding="async">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="images/Custom-Web.jpg" alt="custom-web" class="d-block w-100" style="width: 100%;">
+                    <img src="images/Custom-Web.jpg" alt="Custom web applications" class="d-block w-100" loading="eager" decoding="async">
                 </div>
                 
                 <div class="carousel-item">
-                    <img src="images/internet-marketing2.jpg" alt="internet-marketing2" class="d-block w-100" style="width: 100%;">
+                    <img src="images/internet-marketing2.jpg" alt="Digital marketing services" class="d-block w-100" loading="eager" decoding="async">
                 </div>
             </div>
 
-            <!-- Left and right controls/icons -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="Previous slide">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next" aria-label="Next slide">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </button>
         </div>
         <!-- End Carousel -->
