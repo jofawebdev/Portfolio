@@ -475,7 +475,7 @@
                                     </a>
                                 </li>
                                 <li class="mb-3">
-                                    <a href="callto:+254-793-004-632" class="text-white text-decoration-none">
+                                    <a href="tel:+254793004632" class="text-white text-decoration-none">
                                         <i class="bi bi-telephone me-2"></i>+254-793-004-632
                                     </a>
                                 </li>

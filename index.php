@@ -95,26 +95,16 @@
                 <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
                 <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
                 <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
             </div>
 
             <!-- The slideshow/carousel -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/61be16afc2df9.jpg" alt="61be16afc2df9" class="d-block w-100" style="width: 100%;">
+                    <img src="images/web-development.jpg" alt="Dev" class="d-block w-100" style="width: 100%;">
                 </div>
 
                 <div class="carousel-item">
-                    <img src="images/digital-marketing-banner.png" alt="digital-marketing-banner" class="d-block w-100" style="width: 100%;">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="images/upqode-services-web-design.jpeg" alt="upqode-services-web-design" class="d-block w-100" style="width: 100%;">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="images/Web-Design-and-Development-Banner-1030x359.jpg" alt="Web-Design-and-Development-Banner-1030x359" class="d-block w-100" style="width: 100%;">
+                    <img src="images/Custom-Web.jpg" alt="custom-web" class="d-block w-100" style="width: 100%;">
                 </div>
                 
                 <div class="carousel-item">
@@ -146,7 +136,7 @@
 
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
-                    <img class="img-fluid rounded-4 shadow-lg" src="images/pin81.jpg" alt="Web development illustration">
+                    <img class="img-fluid rounded-4 shadow-lg" src="images/design dev.jpg" alt="design dev.jpg">
                 </div>
 
                 <div class="col-lg-6 text-start">
@@ -175,11 +165,11 @@
          
         
         <!-- Begin Second Section -->
-        <div class="container-fluid bg-gradient-primary py-5 bg-light">
-            <div class="container-lg p-4 text-center">
+        <div class="container-fluid bg-light text-dark py-5">
+            <div class="container-lg text-center">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-8">
-                        <h2 class="display-4 fw-bolder mb-4 animate__animated animate__fadeIn">
+                        <h2 class="display-4 fw-bolder mb-4">
                             Tailored Web Solutions 
                             <span class="text-primary d-block mt-2">GROW YOUR BUSINESS</span>
                         </h2>
@@ -218,22 +208,23 @@
                 </div>
             </div>
         </div>
+        <hr>
         <!-- End Section -->
 
 
         <!-- Third Section -->
-        <div class="container-fluid py-5 bg-primary text-light">
+        <div class="container-fluid bg-primary text-light py-5">
             <div class="container text-center">
                 <h2 class="display-5 fw-bold mb-5 text-uppercase">
                     Performance-Driven<br class="d-block d-md-none">
-                    Web Design & Development Experts
+                    <span class="text-light">Web Design & Development Experts</span>
                 </h2>
 
                 <div class="row g-5 align-items-center">
                     <div class="col-md-6">
                         <div class="shadow-lg rounded-4 overflow-hidden">
-                            <img class="img-fluid rounded-4" src="images/web-design-development-blog.jpg" 
-                                alt="Web Design and Development">
+                            <img class="img-fluid rounded-4" src="images/Modern-Creative-Corporate image.png" 
+                                alt="Modern-Creative-Corporate image.png">
                         </div>
                     </div>
 
@@ -469,7 +460,7 @@
 
 
         <!-- Work Process Section -->
-        <section class="py-5 bg-light text-dark">
+        <section class="py-5 text-dark">
             <div class="container">
                 <div class="text-center mb-4">
                     <h2 class="display-5 fw-bold mb-3">Our <span class="text-primary">Work Process</span></h2>
@@ -541,7 +532,7 @@
                             <div class="bg-light rounded-4 p-4 border border-2 border-primary-subtle">
                                 <p class="fs-5 text-muted mb-0">
                                     Reach us via phone or chat at
-                                    <a href="callto:+254-793-004-632" 
+                                    <a href="tel:+254793004632" 
                                     class="d-inline-block d-sm-inline bg-primary text-white text-decoration-none px-3 py-2 rounded-pill ms-2 w-100 text-wrap" 
                                     style="word-break: break-word; max-width: 100%;">
                                         <i class="bi bi-telephone me-2"></i>+254 793-004-632
@@ -628,7 +619,7 @@
                                     </a>
                                 </li>
                                 <li class="mb-3">
-                                    <a href="callto:+254 793-004-632" class="text-white text-decoration-none">
+                                    <a href="tel:+254793004632" class="text-white text-decoration-none">
                                         <i class="bi bi-telephone me-2"></i>+254-793-004-632
                                     </a>
                                 </li>

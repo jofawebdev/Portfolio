@@ -89,16 +89,29 @@
 
 
         <!-- Header Section -->
-        <header class="position-relative w-100" id="home">
-            <!-- Full-width responsive image as a background -->
-            <img src="images/portfolio-banner.jpg" alt="About us Banner" class="img-fluid w-100">
+        <header class="overflow-hidden position-relative" id="home">
+            <!-- Container for responsive image and overlay -->
+            <div class="position-relative">
+                <!-- Hero image with accessibility features -->
+                <img src="images/portfolio-banner.jpg" 
+                    alt="portfolio-banner.jpg" 
+                    class="img-fluid w-100" 
+                    loading="lazy"
+                    role="img">
 
-            <!-- Overlay Content Container -->
-            <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
-                <!-- Heading with Icon -->
-                <h1 class="fs-6 d-flex align-items-center justify-content-center">
-                    <span class="px-3 bg-dark bg-opacity-45 fw-bold p-2">CONTACT</span>
-                </h1>
+                <!-- Gradient overlay for better text contrast -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-gradient opacity-75"></div>
+
+                <!-- Centered content using modern flex layout -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white p-3">
+                    <!-- Semantic heading structure -->
+                    <h1 class="display-6 mb-3 text-shadow">
+                        <span class="d-inline-block bg-dark bg-opacity-50 px-4 py-3 rounded-pill">
+                            <i class="fab fa-rocketchat me-2" aria-hidden="true"></i>
+                            CONTACT US
+                        </span>
+                    </h1>
+                </div>
             </div>
         </header>
 
@@ -236,7 +249,7 @@
                                     </a>
                                 </li>
                                 <li class="mb-3">
-                                    <a href="callto:+254-793-004-632" class="text-white text-decoration-none">
+                                    <a href="tel:+254793004632" class="text-white text-decoration-none">
                                         <i class="bi bi-telephone me-2"></i>+254-793-004-632
                                     </a>
                                 </li>
