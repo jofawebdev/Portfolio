@@ -29,7 +29,7 @@
     
     <body>
         <!-- Begin Top navbar -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="index"><b>Jofawebdev</b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
