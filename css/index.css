@@ -18,3 +18,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+/* Add padding to header equal to navbar height */
+.carousel {
+  padding-top: 56px; /* Default mobile navbar height */
+}

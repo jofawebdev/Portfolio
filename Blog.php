@@ -29,7 +29,7 @@
     
     <body>
         <!-- Begin Top navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="index"><b>Jofawebdev</b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -89,7 +89,7 @@
 
 
         <!-- Begin Services Section -->
-        <div class="container my-2 py-4 text-center">
+        <div class="container py-5 text-center mt-3">
             <h2 class="text-dark"><b>OUR BLOGS</b></h2>
                         
             <!-- Begin First Row -->
