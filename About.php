@@ -458,7 +458,7 @@
                 <div class="container py-4">
                     <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
                         <div class="text-secondary mb-3 mb-md-0">
-                            © 2019 - 2025 Jofawebdev. All Rights Reserved.
+                            © 2019 - 2025 Jofawebdev. All Rights Reserved
                         </div>
                         <button id="scrollToTop" class="btn btn-primary rounded-circle p-2" 
                                 title="Back to top" aria-label="Scroll to top">
