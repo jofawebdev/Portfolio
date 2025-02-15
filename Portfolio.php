@@ -405,17 +405,8 @@
         </footer>
 
 
-        <!--- Scroll to Top Script -->
-        <script>
-            // Get the button
-            var mybutton = document.getElementById("scrollToTop");
-
-            // Scroll to the top when the button is clicked
-            mybutton.onclick = function() {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            };
-        </script>
-        <!-- End Script -->
+        <!-- Scroll to top reference to external js file -->
+        <script src="js/scroll-to-top.js"></script>
 
 
     </body>
